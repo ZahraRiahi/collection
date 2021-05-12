@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "4883824d-c48f-443e-b046-6a276269ccda",
+		"name": "financialPeriodParameterList",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8085/api-financialPeriodParameter/list/1",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6NTM1NjcyMTEsInVzZXJfaWQiOjIxMCwidXNlcl9uYW1lIjoiMTI5MjcyOTQwNiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6NzYsImNyZWF0aW9uX2RhdGUiOiIyMDIxLTA1LTAyVDE0OjE0OjUxLjQ5NiIsImV4cCI6MTY4MzAyMDY5MSwianRpIjoiMDUxM2FhNDgtMmFjNS00NzQzLWE5OTUtYThlYzA4MzkxMTczIiwiYXV0aG9yaXRpZXMiOltdLCJjbGllbnRfaWQiOiJjbGllbnRBcHBJZCJ9.ArJZcwEBd_HiwEG9BWMS6CHP4QLRZNODuo3a5JSKGcAKgST_NEl0MuYe_ySEth-dPJ4I5FhIXatkgJYTndggmPQI3n3GsM_I4u-bkC1IPPYa2EhImF3E7-zqFE4WAogAZsLzFAx6mZtGyCRZN68j7ZxoE3gwyWfHqvjMV3EMIckDXOOH9CifRPSeWdKWyNrh3PF6W3V3oshRE21wswj_50-3vKCmzRL1B3U7FU-Q-6fPBtIYdJvhV6yEZTrTpKCE2zgZ28An_Na7fgMno2iU-OtCf709iKMIzVRc1hLuKnSMuxVJtIArSCvC0C-9m7xNkKLX7TyZU6x5uvNVV1AhxQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"take\": 100,\r\n    \"skip\": 0,\r\n    \"sort\": [],\r\n    \"group\": [\r\n        {\r\n            \"fields\": [],\r\n            \"keys\": []\r\n        }\r\n    ],\r\n    \"filter\":{}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/api-financialPeriodParameter/list/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"api-financialPeriodParameter",
+						"list",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
