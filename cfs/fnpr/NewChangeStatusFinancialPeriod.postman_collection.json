@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "0afcfbc9-5c48-4f03-bf7f-78d6bca529b6",
-		"name": "financialPeriodChangeStatusNew",
+		"_postman_id": "7bff60b8-35be-4c2d-9960-ea7ee2fba0f2",
+		"name": "NewChangeStatusFinancialPeriod",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "localhost:8082/api-financial/update",
+			"name": "http://192.168.25.71:30160/fnpr/api-financialPeriod/SetStatus",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -29,15 +29,15 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":2272,\r\n\"endDate\":\"2021-05-29T00:00:00.000+04:30\",\r\n\"openMonthCount\":2,\r\n\"financialPeriodTypeAssignId\":1,\r\n\"statusId\":2\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
-							"language": "json"
+							"language": "text"
 						}
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/cfs/api-financialPeriod/SetStatus/3472",
+					"raw": "http://192.168.25.71:30160/fnpr/api-financialPeriod/SetStatus/4074",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -47,10 +47,10 @@
 					],
 					"port": "30160",
 					"path": [
-						"cfs",
+						"fnpr",
 						"api-financialPeriod",
 						"SetStatus",
-						"3472"
+						"4074"
 					]
 				}
 			},
