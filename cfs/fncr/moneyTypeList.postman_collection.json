@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "6f3f38f5-f0df-47a9-a7a4-eb2f389a59f0",
-		"name": "moneyTypeUsed",
+		"_postman_id": "cfe4424f-99fa-4503-819e-64751bc0cd5f",
+		"name": "moneyTypeList",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fncr/api-moneyUsed/moneyUsedLov",
+			"name": "http://192.168.25.71:30160/fncr/api-moneyType/list",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -37,7 +37,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fncr/api-moneyUsed/update/103",
+					"raw": "http://192.168.25.71:30160/fncr/api-moneyUsed/moneyUsedLov/5",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -49,8 +49,8 @@
 					"path": [
 						"fncr",
 						"api-moneyUsed",
-						"update",
-						"103"
+						"moneyUsedLov",
+						"5"
 					]
 				}
 			},

@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "fadb229c-3e21-42a9-89de-f3d6b35ff119",
-		"name": "moneyUsedSave",
+		"_postman_id": "6f3f38f5-f0df-47a9-a7a4-eb2f389a59f0",
+		"name": "moneyUsedGet",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fncr/api-moneyUsed/save",
+			"name": "http://192.168.25.71:30160/fncr/api-moneyUsed/get",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"startDate\":\"2021-08-01T00:00:00.000+04:30\",\r\n\"endDate\":\"2021-09-30T00:00:00.000+04:30\",\r\n\"openMonthCount\":5,\r\n\"statusId\":1\r\n}",
+					"raw": "{\r\n\"id\":103,\r\n\"isBaseFlag\":\"false\",\r\n\"activeFlag\":\"true\",\r\n\"nationalCurrencyFlag\":\"false\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -37,7 +37,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/cfs/api-financialPeriod/save",
+					"raw": "http://192.168.25.71:30160/fncr/api-moneyUsed/update/103",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -47,9 +47,10 @@
 					],
 					"port": "30160",
 					"path": [
-						"cfs",
-						"api-financialPeriod",
-						"save"
+						"fncr",
+						"api-moneyUsed",
+						"update",
+						"103"
 					]
 				}
 			},
