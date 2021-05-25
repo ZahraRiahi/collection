@@ -29,10 +29,10 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"moneyTypeDtos\":[{\"id\":2}]\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
-							"language": "json"
+							"language": "text"
 						}
 					}
 				},
