@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"financialPeriodId\":576,\r\n\"startDate\":\"2021-10-01T00:00:00.000+04:30\",\r\n\"taxDeductionRate\":10,\r\n\"vatTaxRate\":15,\r\n\"vatTollRate\":15,\r\n\"insuranceDeductionRate\":20,\r\n\"maxFewerAmount\":30,\r\n\"vatFillFlag\":1\r\n}",
+					"raw": "{\r\n\"financialPeriodId\":4074,\r\n\"startDate\":\"2021-10-01T00:00:00.000+04:30\",\r\n\"taxDeductionRate\":10,\r\n\"vatTaxRate\":15,\r\n\"vatTollRate\":15,\r\n\"insuranceDeductionRate\":20,\r\n\"maxFewerAmount\":30,\r\n\"vatFillFlag\":1\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
