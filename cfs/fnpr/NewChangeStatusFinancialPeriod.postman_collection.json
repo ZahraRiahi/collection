@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "7bff60b8-35be-4c2d-9960-ea7ee2fba0f2",
+		"_postman_id": "4020d2b9-da9b-4d27-8fe4-c2cfc55a09ad",
 		"name": "NewChangeStatusFinancialPeriod",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -29,15 +29,15 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\r\n\"id\":4123,\r\n\"statusId\":2\r\n}",
 					"options": {
 						"raw": {
-							"language": "text"
+							"language": "json"
 						}
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnpr/api-financialPeriod/SetStatus/4074",
+					"raw": "http://192.168.25.71:30160/fnpr/api-financialPeriod/SetStatus",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -49,8 +49,7 @@
 					"path": [
 						"fnpr",
 						"api-financialPeriod",
-						"SetStatus",
-						"4074"
+						"SetStatus"
 					]
 				}
 			},
