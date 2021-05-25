@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":103,\r\n\"isBaseFlag\":\"false\",\r\n\"activeFlag\":\"true\",\r\n\"nationalCurrencyFlag\":\"false\"\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -37,7 +37,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fncr/api-moneyUsed/moneyUsedLov/5",
+					"raw": "http://192.168.25.71:30160/fncr/api-moneyType/list/3",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -48,9 +48,9 @@
 					"port": "30160",
 					"path": [
 						"fncr",
-						"api-moneyUsed",
-						"moneyUsedLov",
-						"5"
+						"api-moneyType",
+						"list",
+						"3"
 					]
 				}
 			},

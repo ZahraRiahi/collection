@@ -37,7 +37,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fncr/api-moneyUsed/save",
+					"raw": "http://192.168.25.71:30160/fncr/api-moneyPricingReference/list",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -48,8 +48,8 @@
 					"port": "30160",
 					"path": [
 						"fncr",
-						"api-moneyUsed",
-						"save"
+						"api-moneyPricingReference",
+						"list"
 					]
 				}
 			},

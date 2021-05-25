@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"startDate\":\"2021-08-01T00:00:00.000+04:30\",\r\n\"endDate\":\"2021-09-30T00:00:00.000+04:30\",\r\n\"openMonthCount\":5,\r\n\"statusId\":1\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -37,7 +37,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/cfs/api-financialPeriod/save",
+					"raw": "http://192.168.25.71:30160/fncr/api-moneyUsed/save",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -47,8 +47,8 @@
 					],
 					"port": "30160",
 					"path": [
-						"cfs",
-						"api-financialPeriod",
+						"fncr",
+						"api-moneyUsed",
 						"save"
 					]
 				}
