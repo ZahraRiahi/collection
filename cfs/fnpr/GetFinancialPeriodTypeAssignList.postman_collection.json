@@ -40,7 +40,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/cfs/api-financialPeriodTypeAssign/list",
+					"raw": "http://192.168.25.71:30160/fnpr/api-financialPeriodTypeAssign/list",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -50,7 +50,7 @@
 					],
 					"port": "30160",
 					"path": [
-						"cfs",
+						"fnpr",
 						"api-financialPeriodTypeAssign",
 						"list"
 					]
