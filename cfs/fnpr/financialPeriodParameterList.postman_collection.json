@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "7730614d-5af4-4160-bf43-b20b76035624",
-		"name": "financialPeriodParameterSave",
+		"_postman_id": "37b8ce59-162b-4370-85e5-4ac64b3fbb03",
+		"name": "financialPeriodParameterList",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnpr/api-financialPeriodParameter/save",
+			"name": "http://192.168.25.71:30160/cfs/api-financialPeriodParameter/list/577",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"financialPeriodId\":4074,\r\n\"startDate\":\"2021-10-01T00:00:00.000+04:30\",\r\n\"taxDeductionRate\":10,\r\n\"vatTaxRate\":15,\r\n\"vatTollRate\":15,\r\n\"insuranceDeductionRate\":20,\r\n\"maxFewerAmount\":30,\r\n\"vatFillFlag\":1\r\n}",
+					"raw": "{\r\n    \"take\": 100,\r\n    \"skip\": 0,\r\n    \"sort\": [],\r\n    \"group\": [\r\n        {\r\n            \"fields\": [],\r\n            \"keys\": []\r\n        }\r\n    ],\r\n    \"filter\":{}\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -37,7 +37,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnpr/api-financialPeriodParameter/save",
+					"raw": "http://192.168.25.71:30160/cfs/api-financialPeriodParameter/list/577",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -47,9 +47,10 @@
 					],
 					"port": "30160",
 					"path": [
-						"fnpr",
+						"cfs",
 						"api-financialPeriodParameter",
-						"save"
+						"list",
+						"577"
 					]
 				}
 			},
