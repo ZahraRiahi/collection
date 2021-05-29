@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "9739e0a4-482e-49d8-a115-e55c4599b66a",
-		"name": "moneyUsedUpdate",
+		"_postman_id": "7e2cef6c-d836-4062-859f-7cc864171fd9",
+		"name": "moneyRateList",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fncr/api-moneyUsed/update",
+			"name": "http://192.168.25.71:30160/fncr/api-moneyRate/list",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":103,\r\n\"activeFlag\":true,\r\n\"nationalCurrencyFlag\":false,\r\n\"isBaseFlag\":true\r\n}",
+					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    {\"field\":\"isLastRate\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"fromMoneyUsed.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"toMoneyUsed.id\",\"value\":2,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"moneyPricingReference.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"startDate\",\"value\":\"2021-04-30T17:48:23.558\",\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"endDate\",\"value\":\"2021-05-30T17:48:23.558\",\"operator\":\"eq\",\"filters\":[]}\r\n   \r\n    ]}}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -37,7 +37,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fncr/api-moneyUsed/update",
+					"raw": "http://192.168.25.71:30160/fncr/api-moneyRate/list",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -48,8 +48,8 @@
 					"port": "30160",
 					"path": [
 						"fncr",
-						"api-moneyUsed",
-						"update"
+						"api-moneyRate",
+						"list"
 					]
 				}
 			},
