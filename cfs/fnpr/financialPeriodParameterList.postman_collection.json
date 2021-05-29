@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/cfs/api-financialPeriodParameter/list/577",
+			"name": "http://192.168.25.71:30160/fnpr/api-financialPeriodParameter/list/577",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -37,7 +37,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/cfs/api-financialPeriodParameter/list/577",
+					"raw": "http://192.168.25.71:30160/fnpr/api-financialPeriodParameter/list/577",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -47,7 +47,7 @@
 					],
 					"port": "30160",
 					"path": [
-						"cfs",
+						"fnpr",
 						"api-financialPeriodParameter",
 						"list",
 						"577"
