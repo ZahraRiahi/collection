@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    {\"field\":\"isLastRate\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"fromMoneyUsed.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"toMoneyUsed.id\",\"value\":2,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"moneyPricingReference.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"startDate\",\"value\":\"2021-04-30T17:48:23.558\",\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"endDate\",\"value\":\"2021-05-30T17:48:23.558\",\"operator\":\"eq\",\"filters\":[]}\r\n   \r\n    ]}}",
+					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    {\"field\":\"isLastRate\",\"value\":true,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"fromMoneyUsed.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"toMoneyUsed.id\",\"value\":2,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"moneyPricingReference.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"startDate\",\"value\":\"2021-04-30T17:48:23.558\",\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"endDate\",\"value\":\"2021-05-30T17:48:23.558\",\"operator\":\"eq\",\"filters\":[]}\r\n   \r\n    ]}}",
 					"options": {
 						"raw": {
 							"language": "json"
