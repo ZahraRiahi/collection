@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "[{\r\n \"id\":null,\r\n\"organizationId\":9,\r\n\"exchangeRateId\":3000,\r\n\"moneyPricingReferenceId\":3,\r\n\"fromMoneyUsedId\":1,\r\n\"toMoneyUsedId\" :2,\r\n\"effectiveDate\":\"2021-05-10T17:48:23.558\"\r\n},\r\n{\r\n \"id\":null,\r\n\"organizationId\":9,\r\n\"exchangeRateId\":4000,\r\n\"moneyPricingReferenceId\":1,\r\n\"fromMoneyUsedId\":1,\r\n\"toMoneyUsedId\" :2,\r\n\"effectiveDate\":\"2021-05-10T17:48:23.558\"\r\n}\r\n]",
+					"raw": "[\r\n    {\r\n        \"id\": null,\r\n        \"exchangeRate\": 3000,\r\n        \"moneyPricingReferenceId\": 3,\r\n        \"fromMoneyUsedId\": 1,\r\n        \"toMoneyUsedId\": 2,\r\n        \"effectiveDate\": \"2021-05-10T17:48:23.558\"\r\n    },\r\n    {\r\n        \"id\": null,\r\n        \"exchangeRate\": 4000,\r\n        \"moneyPricingReferenceId\": 1,\r\n        \"fromMoneyUsedId\": 1,\r\n        \"toMoneyUsedId\": 2,\r\n        \"effectiveDate\": \"2021-05-10T17:48:23.558\"\r\n    }\r\n]",
 					"options": {
 						"raw": {
 							"language": "json"

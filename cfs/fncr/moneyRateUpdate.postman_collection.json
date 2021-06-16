@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n \"id\":4152,\r\n\"organizationId\":9,\r\n\"exchangeRateId\":4000,\r\n\"moneyPricingReferenceId\":3,\r\n\"fromMoneyUsedId\":2,\r\n\"toMoneyUsedId\" :3,\r\n\"effectiveDate\":\"2021-05-10T17:48:23.558\"\r\n}",
+					"raw": "{\r\n \"id\":4152,\r\n\"organizationId\":9,\r\n\"exchangeRate\":7000,\r\n\"moneyPricingReferenceId\":3,\r\n\"fromMoneyUsedId\":2,\r\n\"toMoneyUsedId\" :3,\r\n\"effectiveDate\":\"2021-05-10T17:48:23.558\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
