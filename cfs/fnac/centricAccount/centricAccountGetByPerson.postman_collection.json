@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "6c173710-dd58-4c01-a17c-27acc5870617",
-		"name": "personRoleTypeList",
+		"_postman_id": "4fd56fdc-7f03-45b8-be16-68836b2acd57",
+		"name": "centricAccountGetByPerson",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnac/api-person/list",
+			"name": "http://192.168.25.71:30160/fnac/api-centricAccount/GetByPerson",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -29,21 +29,21 @@
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"value": "text/plain",
+						"value": "application/json",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\r\n\"personId\":40005\r\n}",
 					"options": {
 						"raw": {
-							"language": "text"
+							"language": "json"
 						}
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnac/api-person_role_type/list",
+					"raw": "http://192.168.25.71:30160/fnac/api-centricAccount/GetByPerson",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -54,13 +54,12 @@
 					"port": "30160",
 					"path": [
 						"fnac",
-						"api-person_role_type",
-						"list"
+						"api-centricAccount",
+						"GetByPerson"
 					]
 				}
 			},
 			"response": []
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
