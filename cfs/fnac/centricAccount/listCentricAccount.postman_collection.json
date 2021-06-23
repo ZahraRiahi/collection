@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "bf6adbeb-87f0-42d0-af05-c73f220c0c81",
-		"name": "centricAccountList",
+		"_postman_id": "aa060702-6ded-4845-b0b2-deb57b64840b",
+		"name": "listCentricAccount",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    {\"field\":\"centricAccountType.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"organization.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n      \r\n    ]}}",
+					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    {\"field\":\"centricAccountType.id\",\"value\":3,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"organization.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"name\",\"value\":\"ابراهیم ستاری\",\"operator\":\"eq\",\"filters\":[]}\r\n    ]}}",
 					"options": {
 						"raw": {
 							"language": "json"
