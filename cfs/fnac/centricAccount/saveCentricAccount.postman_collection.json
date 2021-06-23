@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "21936d15-3577-49c2-b537-16ec19f0c988",
+		"_postman_id": "aabebb8f-77d9-48d5-9ff5-a7e42711187c",
 		"name": "saveCentricAccount",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnpr/api-financialPeriodTypeAssign/save",
+			"name": "http://192.168.25.71:30160/fnac/api-centricAccount/save",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":null,\r\n\"code\":\"08100\",\r\n\"name\":\"test\",\r\n\"centricAccountTypeCode\":\"30\",\r\n\"organizationId\":1,\r\n\"personId\":37270,\r\n\"peraonRoleTypeId\":1,\r\n\"activeFlag\":1\r\n}",
+					"raw": "{\r\n\"id\":null,\r\n\"code\":\"06100\",\r\n\"name\":\"ابراهیم ستاری\",\r\n\"centricAccountTypeCode\":\"10\",\r\n\"organizationId\":2,\r\n\"personId\":37270,\r\n\"centricPersonRoleListId\":[1],\r\n\"activeFlag\":1\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -55,6 +55,5 @@
 			},
 			"response": []
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
