@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "67a5dd20-01c9-4aa7-82b4-053d5142c255",
-		"name": "personList",
+		"_postman_id": "ec1269a1-c31f-4339-b451-58dd1fccc845",
+		"name": "personAllList",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -35,7 +35,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"personRoleTypeId\":1,\r\n\"personId\":37270\r\n}",
+					"raw": "{\r\n    \"take\": 100,\r\n    \"skip\": 0,\r\n    \"sort\": [],\r\n    \"group\": [\r\n        {\r\n            \"fields\": [],\r\n            \"keys\": []\r\n        }\r\n    ],\r\n    \"filter\":{}\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -61,6 +61,5 @@
 			},
 			"response": []
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
