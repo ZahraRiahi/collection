@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "aabebb8f-77d9-48d5-9ff5-a7e42711187c",
-		"name": "saveCentricAccount",
+		"_postman_id": "cc9930dc-fa9b-4dd3-98a2-b2f711a761c7",
+		"name": "listFinancialAccount",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnac/api-centricAccount/save",
+			"name": "http://192.168.25.71:30160/fnac/api-financialAccount/list",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -25,11 +25,17 @@
 						"key": "Authorization",
 						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6NTM1NjcyMTEsInVzZXJfaWQiOjIxMCwidXNlcl9uYW1lIjoiMTI5MjcyOTQwNiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6NzYsImNyZWF0aW9uX2RhdGUiOiIyMDIxLTA1LTAxVDExOjA4OjE5LjQ1MyIsImV4cCI6MTY4MjkyMzA5OSwianRpIjoiYTBkNTkwMDQtNzA5Mi00MjA1LWJiMGUtOGRjNDFlZjI1ZGVhIiwiYXV0aG9yaXRpZXMiOltdLCJjbGllbnRfaWQiOiJjbGllbnRBcHBJZCJ9.-vjKwb5dcDgEYKariykxpDpo5MB485Fe0eIahCby8WYCtPAvxq3pYMaZJDASUsBuQPjdKR5yotNAYPPgTyVssA9LnN-Cxgz-0ZefrjsvbXFmKWV4NZ6h7vVNcQ0XMbGO0My7wbPK_zWuWYBWIvn6avNu4zsR4cWx-4X_agKfceoaqYny6wAeH-0WnQL2uK2kg4HRg7uugnebsu3EEJJbhI0oEgdU7csqba1JNA0Ve8SwIcMuSZTXdrIyXqia4wlsetcP_JXIq9URoN0ljBI9sOu3VvzVxik120XXcQi_xg4-lwxQcsi2FxsDZpVX8OSIqDERsPSO7unJqk-o3cDzIg",
 						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":null,\r\n\"code\":\"06100\",\r\n\"name\":\"ابراهیم ستاری\",\r\n\"centricAccountTypeCode\":\"10\",\r\n\"organizationId\":2,\r\n\"personId\":37270,\r\n\"centricPersonRoleListId\":[1],\r\n\"activeFlag\":1\r\n}",
+					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    {\"field\":\"organization.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"financialAccountStructure.financialCodingType.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"accountNatureType.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"accountRelationType.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"financialAccountStructure.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n      ,{\"field\":\"description\",\"value\":\"شرح حساب مالی 1\",\"operator\":\"contains\",\"filters\":[]}\r\n    ]}}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -37,7 +43,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnac/api-centricAccount/save",
+					"raw": "http://192.168.25.71:30160/fnac/api-financialAccount/list",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -48,12 +54,13 @@
 					"port": "30160",
 					"path": [
 						"fnac",
-						"api-centricAccount",
-						"save"
+						"api-financialAccount",
+						"list"
 					]
 				}
 			},
 			"response": []
 		}
-	]
+	],
+	"protocolProfileBehavior": {}
 }

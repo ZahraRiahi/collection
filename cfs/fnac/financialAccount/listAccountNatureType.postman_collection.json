@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "67a5dd20-01c9-4aa7-82b4-053d5142c255",
-		"name": "personList",
+		"_postman_id": "348af6d9-e1b0-422b-8834-bb703a770d2e",
+		"name": "listAccountNatureType",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnac/api-person/list",
+			"name": "http://192.168.25.71:30160/fnac/api-financialAccount/Get",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -35,15 +35,15 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"personRoleTypeId\":1,\r\n\"personId\":37270\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
-							"language": "json"
+							"language": "text"
 						}
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnac/api-person/list",
+					"raw": "http://192.168.25.71:30160/fnac/api-accountNatureType/list",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -54,13 +54,12 @@
 					"port": "30160",
 					"path": [
 						"fnac",
-						"api-person",
+						"api-accountNatureType",
 						"list"
 					]
 				}
 			},
 			"response": []
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
