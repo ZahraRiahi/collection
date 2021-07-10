@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "3c9a498e-cef6-4e9e-a83b-cf92b59609de",
-		"name": "DeleteFinancialCodingType",
+		"_postman_id": "61ebc085-a4b4-408f-94fd-ba623b659123",
+		"name": "financialCodingTypeDelete",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnac/api-financialCodingType/delete/1051",
+			"name": "http://192.168.25.71:30160/fnac/api-financialCodingType/delete",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -32,12 +32,12 @@
 					"raw": "",
 					"options": {
 						"raw": {
-							"language": "text"
+							"language": "json"
 						}
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnac/api-financialCodingType/delete/1051",
+					"raw": "http://192.168.25.71:30160/fnac/api-financialCodingType/delete/4104",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -50,7 +50,7 @@
 						"fnac",
 						"api-financialCodingType",
 						"delete",
-						"1051"
+						"4104"
 					]
 				}
 			},
