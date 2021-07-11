@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "351ccc17-1cbc-4de1-b082-f4a1f2316190",
+		"_postman_id": "8aed46ed-d2c4-4cad-9f14-2b34a66c9d52",
 		"name": "deleteFinancialAccountStructure",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnac/api-financialAccountStructure/delete/1351",
+			"name": "http://192.168.25.71:30160/fnac/api-financialAccountStructure/delete/3",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -32,12 +32,12 @@
 					"raw": "",
 					"options": {
 						"raw": {
-							"language": "text"
+							"language": "json"
 						}
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnac/api-financialAccountStructure/delete/1351",
+					"raw": "http://192.168.25.71:30160/fnac/api-financialAccountStructure/delete/3",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -50,7 +50,7 @@
 						"fnac",
 						"api-financialAccountStructure",
 						"delete",
-						"1351"
+						"3"
 					]
 				}
 			},
