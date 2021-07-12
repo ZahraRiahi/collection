@@ -37,15 +37,20 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8085/api-centricAccount/delete/1001",
+					"raw": "http://192.168.25.71:30160/fnac/api-centricAccount/delete/3001",
+					"protocol": "http",
 					"host": [
-						"localhost"
+						"192",
+						"168",
+						"25",
+						"71"
 					],
-					"port": "8085",
+					"port": "30160",
 					"path": [
+						"fnac",
 						"api-centricAccount",
 						"delete",
-						"1001"
+						"3001"
 					]
 				}
 			},
