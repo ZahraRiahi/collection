@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n \"id\":null,\r\n \"description\":\"اسناد تجهیزات\"\r\n\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -36,7 +36,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fndc/api-financialDocumentDescription/save",
+					"raw": "http://192.168.25.71:30160/fndc/api-financialDocumentDescription/delete/1051",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -48,7 +48,8 @@
 					"path": [
 						"fndc",
 						"api-financialDocumentDescription",
-						"save"
+						"delete",
+						"1051"
 					]
 				}
 			},
