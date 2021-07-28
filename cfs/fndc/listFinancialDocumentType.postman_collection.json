@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "fb0db6b4-b2c3-40e4-8910-811a129170df",
+		"name": "listFinancialDocumentType",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.25.71:30160/fnac/api-financialAccount/list",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MzcyMDQsInVzZXJfaWQiOjEsInVzZXJfbmFtZSI6ImRvY3RvciIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNS0wMlQxNjowMjo0Mi41NTMiLCJleHAiOjE2ODMwMjcxNjIsImp0aSI6IjJkMTNlYjVmLWNhNGMtNDgzYi1hYjY4LTRjZWUxYzVkZjU2NyIsImNsaWVudF9pZCI6ImNsaWVudEFwcElkIn0.rTXkxc56P3yEavXoU3qjsyDl2w3qhQ9Bv7VW24MH1VoQlKD7naiRkvkB34rgQfBixVPHu95BHVSZjCcIXL7eLPYPd-PKIXOCP6_Y-FraHURAv_0KeCfoHbUDqjObZblMfxIc5ihhMYyH-VVGs0dag_06pmxsJEAjy9E_wHgjkCV7qomaNNcC8GDOKxj9lVi2aTRDDT6xWyy-jw3NYZMsL-AHDHce0QiqmIvLANjAU4Ua0U7f8qf-mBZbTPwsxXMsYNgqqnuzNnXlUQTZ4_5PUa0hjt8gkZleqzSJ4qiUIypCe7KI5vEMwgg-E1Jieul59NUEEgQV4nvHKhiTSeMynA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MTExLCJ1c2VyX2lkIjoxMTIsInVzZXJfbmFtZSI6IkZOQ19VU0VSIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sIm9yZ2FuaXphdGlvbl91c2VyX2lkIjoxMDAsImFwcGxpY2F0aW9uX3N5c3RlbV9pZCI6ODY4LCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNy0yOFQwOToyNDoyNy4wMjUiLCJleHAiOjM3NzQ5MzE3MTMsImp0aSI6IjY1NGIzNmQwLWNiMGItNDZhMC05M2IwLTE3ZmRiZGRiZTAwMSIsImF1dGhvcml0aWVzIjpbIjEwNCIsIk1OR19GTkNfUEVSSU9EIiwiMTAxIiwiT1JHX0ZOQ19QRVJJT0QiLCIxMDAiLCIxMDMiLCIxMDIiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.8fCGrIQGgeDmXaJPTsJe8zXaC1a_r-bbwjrZM1PDX7GHLelaSuQykUmgMKHCqRUx7eVF69toCvuPJ_HzRYYXMtI-i-NRDgAVajvT4q5wjbCy8CriML2Y4cs6ZaaDvlGCxJ9AKaRYROk6aWmfWiJKkHJMbT04GAirGF0vdD0DkXC8xLzzWm_FoQ7TuX6GT3gVAvX5CORhxPlVolAuD0mz_gm0dxfNFeGArDKs87BXSTqUyJdKvFqVGoy3ugDpYBRiepynw7YCK-_yiXG_fA7DkSnDcjPHmAqYbWNi3e2phjVcLwT7clFW9dPhPKMTvy6ZHD3Hfyb1l1P7PkSerjRebw\"",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    {\"field\":\"organization.id\",\"value\":100,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"financialSystem.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"id\",\"value\":3,\"operator\":\"eq\",\"filters\":[]}\r\n  \r\n    ]}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.25.71:30160/fndc/api-financialDocumentType/List",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"71"
+					],
+					"port": "30160",
+					"path": [
+						"fndc",
+						"api-financialDocumentType",
+						"List"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
