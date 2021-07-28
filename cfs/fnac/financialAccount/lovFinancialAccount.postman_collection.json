@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "8069c1a6-cdb9-428e-9444-643e1ac81391",
-		"name": "financialAccountLov",
+		"_postman_id": "f9f4818e-257e-4149-9384-f53ba58f8c82",
+		"name": "lovFinancialAccount",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -43,17 +43,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnac/api-financialAccount/Get",
-					"protocol": "http",
+					"raw": "localhost:8085/api-financialAccount/Get",
 					"host": [
-						"192",
-						"168",
-						"25",
-						"71"
+						"localhost"
 					],
-					"port": "30160",
+					"port": "8085",
 					"path": [
-						"fnac",
 						"api-financialAccount",
 						"Get"
 					]
