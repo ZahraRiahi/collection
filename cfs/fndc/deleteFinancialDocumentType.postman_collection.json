@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fndc/api-financialDocumentType/Delete",
+			"name": "http://192.168.25.71:30160/fndc/api-financialDocumentType/Delete/1",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -36,12 +36,17 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8085/api-financialDocumentType/Delete/1",
+					"raw": "http://192.168.25.71:30160/fndc/api-financialDocumentType/Delete/1",
+					"protocol": "http",
 					"host": [
-						"localhost"
+						"192",
+						"168",
+						"25",
+						"71"
 					],
-					"port": "8085",
+					"port": "30160",
 					"path": [
+						"fndc",
 						"api-financialDocumentType",
 						"Delete",
 						"1"
