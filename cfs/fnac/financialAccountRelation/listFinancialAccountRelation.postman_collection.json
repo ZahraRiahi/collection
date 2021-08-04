@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "7849c22d-b94c-4182-8891-7b5885df8a4b",
+		"_postman_id": "dc627c46-6363-42f3-a227-8153df146ece",
 		"name": "listFinancialAccountRelation",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnac/api-financialAccountRelation/list/1",
+			"name": "http://192.168.25.71:30160/fnac/api-financialAccountRelation/list",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -34,7 +34,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    ]}}",
+					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    {\"field\":\"accountRelationType.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n          ]}}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -42,7 +42,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnac/api-financialAccountRelation/list/1",
+					"raw": "http://192.168.25.71:30160/fnac/api-financialAccountRelation/list",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -54,8 +54,7 @@
 					"path": [
 						"fnac",
 						"api-financialAccountRelation",
-						"list",
-						"1"
+						"list"
 					]
 				}
 			},
