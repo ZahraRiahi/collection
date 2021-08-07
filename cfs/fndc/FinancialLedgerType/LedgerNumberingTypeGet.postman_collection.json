@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "c440f7ad-eb89-480a-aae6-671877f624d1",
+		"name": "LedgerNumberingTypeGet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "ledgerNumberingTypeGet",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MTExLCJ1c2VyX2lkIjoxMTIsInVzZXJfbmFtZSI6IkZOQ19VU0VSIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sIm9yZ2FuaXphdGlvbl91c2VyX2lkIjoxMDAsImFwcGxpY2F0aW9uX3N5c3RlbV9pZCI6ODY4LCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNy0yOFQwOToyNDoyNy4wMjUiLCJleHAiOjM3NzQ5MzE3MTMsImp0aSI6IjY1NGIzNmQwLWNiMGItNDZhMC05M2IwLTE3ZmRiZGRiZTAwMSIsImF1dGhvcml0aWVzIjpbIjEwNCIsIk1OR19GTkNfUEVSSU9EIiwiMTAxIiwiT1JHX0ZOQ19QRVJJT0QiLCIxMDAiLCIxMDMiLCIxMDIiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.8fCGrIQGgeDmXaJPTsJe8zXaC1a_r-bbwjrZM1PDX7GHLelaSuQykUmgMKHCqRUx7eVF69toCvuPJ_HzRYYXMtI-i-NRDgAVajvT4q5wjbCy8CriML2Y4cs6ZaaDvlGCxJ9AKaRYROk6aWmfWiJKkHJMbT04GAirGF0vdD0DkXC8xLzzWm_FoQ7TuX6GT3gVAvX5CORhxPlVolAuD0mz_gm0dxfNFeGArDKs87BXSTqUyJdKvFqVGoy3ugDpYBRiepynw7YCK-_yiXG_fA7DkSnDcjPHmAqYbWNi3e2phjVcLwT7clFW9dPhPKMTvy6ZHD3Hfyb1l1P7PkSerjRebw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8085/api-ledgerNumberingType/Get?ledgerNumberingTypeId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"api-ledgerNumberingType",
+						"Get"
+					],
+					"query": [
+						{
+							"key": "ledgerNumberingTypeId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
