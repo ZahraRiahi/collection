@@ -1,21 +1,12 @@
 {
 	"info": {
-		"_postman_id": "c440f7ad-eb89-480a-aae6-671877f624d1",
+		"_postman_id": "43e6927e-fb81-4fc7-b4ae-e5474e88669a",
 		"name": "LedgerNumberingTypeGet",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "New Request",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": null
-			},
-			"response": []
-		},
-		{
-			"name": "ledgerNumberingTypeGet",
+			"name": "http://192.168.25.71:30160/fndc/api-ledgerNumberingType/Get",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -29,21 +20,29 @@
 				},
 				"method": "POST",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " \r\n   {\r\n                \"financialLedgerTypeId\": 1\r\n               \r\n   }\r\n            ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "localhost:8085/api-ledgerNumberingType/Get?ledgerNumberingTypeId=1",
+					"raw": "http://192.168.25.71:30160/fndc/api-ledgerNumberingType/Get",
+					"protocol": "http",
 					"host": [
-						"localhost"
+						"192",
+						"168",
+						"25",
+						"71"
 					],
-					"port": "8085",
+					"port": "30160",
 					"path": [
+						"fndc",
 						"api-ledgerNumberingType",
 						"Get"
-					],
-					"query": [
-						{
-							"key": "ledgerNumberingTypeId",
-							"value": "1"
-						}
 					]
 				}
 			},
