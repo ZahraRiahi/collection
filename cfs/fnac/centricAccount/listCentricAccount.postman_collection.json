@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "aa060702-6ded-4845-b0b2-deb57b64840b",
+		"_postman_id": "c6093a60-3cab-4190-a312-63e19ea0d3ce",
 		"name": "listCentricAccount",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnac/api-centricAccountType/list",
+			"name": "http://192.168.25.71:30160/fnac/api-centricAccount/list",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    {\"field\":\"centricAccountType.id\",\"value\":3,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"organization.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"name\",\"value\":\"ابراهیم ستاری\",\"operator\":\"eq\",\"filters\":[]}\r\n    ]}}",
+					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    {\"field\":\"centricAccountType.id\",\"value\":3,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"organization.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ,{\"field\":\"name\",\"value\":\"مژده کاظمی\",\"operator\":\"eq\",\"filters\":[]}\r\n    ]}}",
 					"options": {
 						"raw": {
 							"language": "json"

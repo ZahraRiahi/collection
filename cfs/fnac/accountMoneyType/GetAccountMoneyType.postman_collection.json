@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "23ea78f1-7dc7-4322-a932-5218f9af99a1",
-		"name": "listAccountMoneyType",
+		"_postman_id": "793ba813-dacb-4f22-8399-8c1de8621799",
+		"name": "GetAccountMoneyType",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnac/api-accountMoneyType/Get/1",
+			"name": "http://192.168.25.71:30160/fnac/api-accountMoneyType/Get",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -35,15 +35,15 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\r\n    \"financialAccountId\": 1\r\n}",
 					"options": {
 						"raw": {
-							"language": "text"
+							"language": "json"
 						}
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnac/api-accountMoneyType/Get/1",
+					"raw": "http://192.168.25.71:30160/fnac/api-accountMoneyType/Get",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -55,8 +55,7 @@
 					"path": [
 						"fnac",
 						"api-accountMoneyType",
-						"Get",
-						"1"
+						"Get"
 					]
 				}
 			},
