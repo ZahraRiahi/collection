@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "efa808c5-fdc8-4396-83bf-0e9e17980bdb",
+		"_postman_id": "b47f4976-9395-411a-a40d-2b62bd0eae97",
 		"name": "financialDepartmentList",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "financialDepartmentList",
 			"request": {
 				"auth": {
 					"type": "bearer",
