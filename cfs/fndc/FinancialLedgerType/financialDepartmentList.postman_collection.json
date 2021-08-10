@@ -1,12 +1,15 @@
 {
 	"info": {
-		"_postman_id": "069fced2-8339-464e-9c0c-06a35b3b5a54",
+		"_postman_id": "c77a1b9d-5caf-4370-a1ea-25a0280fecf8",
 		"name": "financialDepartmentList",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
 			"name": "financialDepartmentList",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -18,11 +21,11 @@
 						}
 					]
 				},
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": " {\r\n    \"take\": 100,\r\n    \"skip\": 0,\r\n    \"sort\": [],\r\n    \"group\": [\r\n        {\r\n            \"fields\": [],\r\n            \"keys\": []\r\n        }\r\n    ]\r\n    ,\r\n    \"filter\": {\r\n        \"logic\": \"and\",\r\n        \"filters\": [\r\n            {\r\n                \"field\": \"organization.id\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            }\r\n        ]\r\n    }\r\n}",
+					"raw": " {\r\n    \"take\": 100,\r\n    \"skip\": 0,\r\n    \"sort\": [],\r\n    \"group\": [\r\n        {\r\n            \"fields\": [],\r\n            \"keys\": []\r\n        }\r\n    ]\r\n    ,\r\n    \"filter\": {\r\n        \"logic\": \"and\",\r\n        \"filters\": [\r\n    ]\r\n    }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -48,5 +51,6 @@
 			},
 			"response": []
 		}
-	]
+	],
+	"protocolProfileBehavior": {}
 }
