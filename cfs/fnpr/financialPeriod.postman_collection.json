@@ -6,7 +6,10 @@
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnpr/api-financialPeriod/GetDate/1",
+			"name": "http://192.168.25.71:30160/fnpr/api-financialPeriod/GetDate",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -18,7 +21,7 @@
 						}
 					]
 				},
-				"method": "POST",
+				"method": "GET",
 				"header": [
 					{
 						"key": "Authorization",
@@ -36,7 +39,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnpr/api-financialPeriod/GetDate/1",
+					"raw": "http://192.168.25.71:30160/fnpr/api-financialPeriod/GetDate",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -48,8 +51,7 @@
 					"path": [
 						"fnpr",
 						"api-financialPeriod",
-						"GetDate",
-						"1"
+						"GetDate"
 					]
 				}
 			},
