@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "9446875c-0800-45b0-8189-715b138e9b7a",
+		"_postman_id": "3621b585-4158-4d31-a64a-9d012bd5a41d",
 		"name": "listFinancialAccountType",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnac/api-person/list",
+			"name": "http://192.168.25.71:30160/fnac/api-financialAccountType/list",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -35,15 +35,15 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    {\"field\":\"financialAccount.id\",\"value\":null,\"operator\":\"eq\",\"filters\":[]}\r\n    \r\n    ]}}",
 					"options": {
 						"raw": {
-							"language": "text"
+							"language": "json"
 						}
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnac/api-financialAccountType/list/1",
+					"raw": "http://192.168.25.71:30160/fnac/api-financialAccountType/list",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -55,8 +55,7 @@
 					"path": [
 						"fnac",
 						"api-financialAccountType",
-						"list",
-						"1"
+						"list"
 					]
 				}
 			},
