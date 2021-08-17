@@ -22,7 +22,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "[\r\n    {\r\n        \"financialDepartmentLedgerId\": null,\r\n        \"financialDepartmentId\":null,\r\n        \"financialLedgerTypeId\":null\r\n    },\r\n    {\r\n        \"financialDepartmentLedgerId\": null,\r\n        \"financialDepartmentId\":null,\r\n        \"financialLedgerTypeId\":null\r\n    }\r\n\r\n]",
+					"raw": "[\r\n    {\r\n        \"financialDepartmentLedgerId\": null,\r\n        \"financialDepartmentId\":null,\r\n        \"financialLedgerTypeId\":null\r\n    }\r\n]",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -30,16 +30,17 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.107.51:8085/api-financialDepartmentLedger/Save",
+					"raw": "http://192.168.25.71:30160/fndc/api-financialDepartmentLedger/Save",
 					"protocol": "http",
 					"host": [
 						"192",
 						"168",
-						"107",
-						"51"
+						"25",
+						"71"
 					],
-					"port": "8085",
+					"port": "30160",
 					"path": [
+						"fndc",
 						"api-financialDepartmentLedger",
 						"Save"
 					]
