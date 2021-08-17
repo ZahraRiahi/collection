@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "d9a27476-e830-4e78-89f2-6dad840d1cdc",
-		"name": "moneyRateGet",
+		"_postman_id": "b458fad8-efc0-486a-bb13-4d67bebfb65a",
+		"name": "updateAccountDefaultValue/",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fncr/api-moneyRate/get",
+			"name": "http://192.168.25.71:30160/fnac/api-accountDefaultValue/save",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"moneyPricingReferenceId\":1,\r\n\"fromMoneyUsedId\":9061,\r\n\"toMoneyUsedId\" :9060,\r\n\"effectiveDate\":\"2021-10-10T17:48:23.558\"\r\n}",
+					"raw": "{\r\n    \"accountDefaultValueUpdateDtos\": [\r\n        {\r\n            \"id\": 1251,\r\n            \"centricAccountId\":1,\r\n            \"accountRelationTypeDetailId\":3\r\n        },\r\n        {\r\n            \"id\": 1252,\r\n            \"centricAccountId\":2,\r\n            \"accountRelationTypeDetailId\":4\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -37,7 +37,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fncr/api-moneyRate/get",
+					"raw": "http://192.168.25.71:30160/fnac/api-accountDefaultValue/update",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -47,9 +47,9 @@
 					],
 					"port": "30160",
 					"path": [
-						"fncr",
-						"api-moneyRate",
-						"get"
+						"fnac",
+						"api-accountDefaultValue",
+						"update"
 					]
 				}
 			},

@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "d9a27476-e830-4e78-89f2-6dad840d1cdc",
-		"name": "moneyRateGet",
+		"_postman_id": "d6022bae-2288-4246-add9-5f970f451fa5",
+		"name": "saveAccountDefaultValue",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fncr/api-moneyRate/get",
+			"name": "http://192.168.25.71:30160/fnac/api-accountDefaultValue/save",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"moneyPricingReferenceId\":1,\r\n\"fromMoneyUsedId\":9061,\r\n\"toMoneyUsedId\" :9060,\r\n\"effectiveDate\":\"2021-10-10T17:48:23.558\"\r\n}",
+					"raw": "{\r\n\"financialAccountId\":\"151\",\r\n\"accountRelationTypeId\":\"1\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -37,7 +37,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fncr/api-moneyRate/get",
+					"raw": "http://192.168.25.71:30160/fnac/api-accountDefaultValue/save",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -47,9 +47,9 @@
 					],
 					"port": "30160",
 					"path": [
-						"fncr",
-						"api-moneyRate",
-						"get"
+						"fnac",
+						"api-accountDefaultValue",
+						"save"
 					]
 				}
 			},
