@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "77d4a80b-13c1-46db-9549-3a87b06004eb",
+		"name": "FinancialDepartmentLedgerSave",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "financialDepartmentLedgerSave",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MTExLCJ1c2VyX2lkIjoxMTIsInVzZXJfbmFtZSI6IkZOQ19VU0VSIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sIm9yZ2FuaXphdGlvbl91c2VyX2lkIjoxMDAsImFwcGxpY2F0aW9uX3N5c3RlbV9pZCI6ODY4LCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNy0yOFQwOToyNDoyNy4wMjUiLCJleHAiOjM3NzQ5MzE3MTMsImp0aSI6IjY1NGIzNmQwLWNiMGItNDZhMC05M2IwLTE3ZmRiZGRiZTAwMSIsImF1dGhvcml0aWVzIjpbIjEwNCIsIk1OR19GTkNfUEVSSU9EIiwiMTAxIiwiT1JHX0ZOQ19QRVJJT0QiLCIxMDAiLCIxMDMiLCIxMDIiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.8fCGrIQGgeDmXaJPTsJe8zXaC1a_r-bbwjrZM1PDX7GHLelaSuQykUmgMKHCqRUx7eVF69toCvuPJ_HzRYYXMtI-i-NRDgAVajvT4q5wjbCy8CriML2Y4cs6ZaaDvlGCxJ9AKaRYROk6aWmfWiJKkHJMbT04GAirGF0vdD0DkXC8xLzzWm_FoQ7TuX6GT3gVAvX5CORhxPlVolAuD0mz_gm0dxfNFeGArDKs87BXSTqUyJdKvFqVGoy3ugDpYBRiepynw7YCK-_yiXG_fA7DkSnDcjPHmAqYbWNi3e2phjVcLwT7clFW9dPhPKMTvy6ZHD3Hfyb1l1P7PkSerjRebw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"financialDepartmentLedgerId\": null,\r\n        \"financialDepartmentId\":null,\r\n        \"financialLedgerTypeId\":null\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.25.71:30160/fndc/api-financialDepartmentLedger/Save",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"71"
+					],
+					"port": "30160",
+					"path": [
+						"fndc",
+						"api-financialDepartmentLedger",
+						"Save"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
