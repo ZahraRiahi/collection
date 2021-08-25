@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "dc448e68-2656-48f9-a440-ee4fcd22526a",
+		"name": "saveFinancialAccount",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.25.71:30160/fnac/api-financialAccount/save",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MTExLCJ1c2VyX2lkIjoxMTIsInVzZXJfbmFtZSI6IkZOQ19VU0VSIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sIm9yZ2FuaXphdGlvbl91c2VyX2lkIjoxMDAsImFwcGxpY2F0aW9uX3N5c3RlbV9pZCI6ODY4LCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNy0yOFQwOToyNDoyNy4wMjUiLCJleHAiOjM3NzQ5MzE3MTMsImp0aSI6IjY1NGIzNmQwLWNiMGItNDZhMC05M2IwLTE3ZmRiZGRiZTAwMSIsImF1dGhvcml0aWVzIjpbIjEwNCIsIk1OR19GTkNfUEVSSU9EIiwiMTAxIiwiT1JHX0ZOQ19QRVJJT0QiLCIxMDAiLCIxMDMiLCIxMDIiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.8fCGrIQGgeDmXaJPTsJe8zXaC1a_r-bbwjrZM1PDX7GHLelaSuQykUmgMKHCqRUx7eVF69toCvuPJ_HzRYYXMtI-i-NRDgAVajvT4q5wjbCy8CriML2Y4cs6ZaaDvlGCxJ9AKaRYROk6aWmfWiJKkHJMbT04GAirGF0vdD0DkXC8xLzzWm_FoQ7TuX6GT3gVAvX5CORhxPlVolAuD0mz_gm0dxfNFeGArDKs87BXSTqUyJdKvFqVGoy3ugDpYBRiepynw7YCK-_yiXG_fA7DkSnDcjPHmAqYbWNi3e2phjVcLwT7clFW9dPhPKMTvy6ZHD3Hfyb1l1P7PkSerjRebw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MTExLCJ1c2VyX2lkIjoxMTIsInVzZXJfbmFtZSI6IkZOQ19VU0VSIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sIm9yZ2FuaXphdGlvbl91c2VyX2lkIjoxMDAsImFwcGxpY2F0aW9uX3N5c3RlbV9pZCI6ODY4LCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNy0yOFQwOToyNDoyNy4wMjUiLCJleHAiOjM3NzQ5MzE3MTMsImp0aSI6IjY1NGIzNmQwLWNiMGItNDZhMC05M2IwLTE3ZmRiZGRiZTAwMSIsImF1dGhvcml0aWVzIjpbIjEwNCIsIk1OR19GTkNfUEVSSU9EIiwiMTAxIiwiT1JHX0ZOQ19QRVJJT0QiLCIxMDAiLCIxMDMiLCIxMDIiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.8fCGrIQGgeDmXaJPTsJe8zXaC1a_r-bbwjrZM1PDX7GHLelaSuQykUmgMKHCqRUx7eVF69toCvuPJ_HzRYYXMtI-i-NRDgAVajvT4q5wjbCy8CriML2Y4cs6ZaaDvlGCxJ9AKaRYROk6aWmfWiJKkHJMbT04GAirGF0vdD0DkXC8xLzzWm_FoQ7TuX6GT3gVAvX5CORhxPlVolAuD0mz_gm0dxfNFeGArDKs87BXSTqUyJdKvFqVGoy3ugDpYBRiepynw7YCK-_yiXG_fA7DkSnDcjPHmAqYbWNi3e2phjVcLwT7clFW9dPhPKMTvy6ZHD3Hfyb1l1P7PkSerjRebw\"",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"id\":5301,\r\n \"organizationId\":100,\r\n \"financialCodingTypeId\":1,\r\n \"financialAccountStructureId\":3,\r\n  \"fullDescription\":\"شرح کامل حساب مالی 30\",\r\n  \"code\":100100333,\r\n  \"description\":\"شرح حساب مالی 30\",\r\n  \"activeFlag\":1,\r\n  \"latinDescription\":null,\r\n  \"accountNatureTypeId\":null,\r\n  \"relatedToOthersFlag\":null,\r\n  \"permanentFlag\":null,\r\n  \"accountRelationTypeId\":null,\r\n  \"financialAccountParentId\":null,\r\n  \"relatedToFundType\":null,\r\n  \"referenceFlag\":null,\r\n  \"convertFlag\":null,\r\n  \"exchangeFlag\":null,\r\n  \"accountAdjustmentId\":null,\r\n   \"financialAccountTypeId\":[3,2,1],\r\n   \"moneyTypeId\":[3,1],\r\n   \"accountDefaultValueOutPutModel\":[\r\n   {\"id\":null,\"centricAccountId\":1,\"accountRelationTypeDetailId\":3},{\"id\":null,\"centricAccountId\":2,\"accountRelationTypeDetailId\":2}],\r\n   \"accountRelatedDescriptionOutPutModel\":[\r\n   {\"financialAccountDesId\":2101,\"description\":\"تست555555\"},{\"financialAccountDesId\":2053,\"description\":\"تست 333333333\"}]\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.25.71:30160/fnac/api-financialAccount/save",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"71"
+					],
+					"port": "30160",
+					"path": [
+						"fnac",
+						"api-financialAccount",
+						"save"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
