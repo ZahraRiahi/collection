@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "3621b585-4158-4d31-a64a-9d012bd5a41d",
+		"_postman_id": "d8b94245-9344-4b72-b6e5-025c7153ef49",
 		"name": "listFinancialAccountType",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -35,7 +35,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    {\"field\":\"financialAccount.id\",\"value\":null,\"operator\":\"eq\",\"filters\":[]}\r\n    \r\n    ]}}",
+					"raw": "{\r\n    \"financialAccountId\": null\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
