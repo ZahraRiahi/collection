@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "dc448e68-2656-48f9-a440-ee4fcd22526a",
-		"name": "saveFinancialAccount",
+		"_postman_id": "af14222c-ee44-4165-a236-cc09e5ec98ee",
+		"name": "financialAccountSave",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -34,7 +34,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n \"id\":5301,\r\n \"organizationId\":100,\r\n \"financialCodingTypeId\":1,\r\n \"financialAccountStructureId\":3,\r\n  \"fullDescription\":\"شرح کامل حساب مالی 30\",\r\n  \"code\":100100333,\r\n  \"description\":\"شرح حساب مالی 30\",\r\n  \"activeFlag\":1,\r\n  \"latinDescription\":null,\r\n  \"accountNatureTypeId\":null,\r\n  \"relatedToOthersFlag\":null,\r\n  \"permanentFlag\":null,\r\n  \"accountRelationTypeId\":null,\r\n  \"financialAccountParentId\":null,\r\n  \"relatedToFundType\":null,\r\n  \"referenceFlag\":null,\r\n  \"convertFlag\":null,\r\n  \"exchangeFlag\":null,\r\n  \"accountAdjustmentId\":null,\r\n   \"financialAccountTypeId\":[3,2,1],\r\n   \"moneyTypeId\":[3,1],\r\n   \"accountDefaultValueOutPutModel\":[\r\n   {\"id\":null,\"centricAccountId\":1,\"accountRelationTypeDetailId\":3},{\"id\":null,\"centricAccountId\":2,\"accountRelationTypeDetailId\":2}],\r\n   \"accountRelatedDescriptionOutPutModel\":[\r\n   {\"financialAccountDesId\":2101,\"description\":\"تست555555\"},{\"financialAccountDesId\":2053,\"description\":\"تست 333333333\"}]\r\n    \r\n}",
+					"raw": "{\r\n \"id\":null,\r\n \"organizationId\":100,\r\n \"financialCodingTypeId\":1,\r\n \"financialAccountStructureId\":3,\r\n  \"fullDescription\":\"شرح کامل حساب مالی 30\",\r\n  \"code\":1001004445,\r\n  \"description\":\"شرح حساب مالی 30\",\r\n  \"activeFlag\":1,\r\n  \"latinDescription\":null,\r\n  \"accountNatureTypeId\":null,\r\n  \"relatedToOthersFlag\":null,\r\n  \"permanentFlag\":null,\r\n  \"accountRelationTypeId\":null,\r\n  \"financialAccountParentId\":null,\r\n  \"relatedToFundType\":null,\r\n  \"referenceFlag\":null,\r\n  \"convertFlag\":null,\r\n  \"exchangeFlag\":null,\r\n  \"accountAdjustmentId\":null,\r\n   \"financialAccountTypeId\":[3,2,1],\r\n   \"moneyTypeId\":[3,1],\r\n   \"accountDefaultValueInPutModel\":[\r\n   {\"id\":null,\"centricAccountId\":1,\"accountRelationTypeDetailId\":3},{\"id\":null,\"centricAccountId\":2,\"accountRelationTypeDetailId\":2}],\r\n   \"accountRelatedDescriptionInPutModel\":[\r\n   {\"financialAccountDesId\":2101,\"description\":\"تست555555\"},{\"financialAccountDesId\":2053,\"description\":\"تست 232323\"}]\r\n    \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -42,17 +42,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnac/api-financialAccount/save",
-					"protocol": "http",
+					"raw": "localhost:8085/api-financialAccount/save",
 					"host": [
-						"192",
-						"168",
-						"25",
-						"71"
+						"localhost"
 					],
-					"port": "30160",
+					"port": "8085",
 					"path": [
-						"fnac",
 						"api-financialAccount",
 						"save"
 					]
