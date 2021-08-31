@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "af14222c-ee44-4165-a236-cc09e5ec98ee",
+		"_postman_id": "7e9caa29-2848-4b8c-8add-366596e66ec3",
 		"name": "financialAccountSave",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -42,12 +42,17 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8085/api-financialAccount/save",
+					"raw": "http://192.168.25.71:30160/fnac/api-financialAccount/save",
+					"protocol": "http",
 					"host": [
-						"localhost"
+						"192",
+						"168",
+						"25",
+						"71"
 					],
-					"port": "8085",
+					"port": "30160",
 					"path": [
+						"fnac",
 						"api-financialAccount",
 						"save"
 					]
