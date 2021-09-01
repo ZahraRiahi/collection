@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "a6c56397-f353-445c-a7f0-3cfd8010ddf9",
+		"name": "financialDocumentSave",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8085/api-financialDocument/Save",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MzcyMDQsInVzZXJfaWQiOjEsInVzZXJfbmFtZSI6ImRvY3RvciIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNS0wMlQxNjowMjo0Mi41NTMiLCJleHAiOjE2ODMwMjcxNjIsImp0aSI6IjJkMTNlYjVmLWNhNGMtNDgzYi1hYjY4LTRjZWUxYzVkZjU2NyIsImNsaWVudF9pZCI6ImNsaWVudEFwcElkIn0.rTXkxc56P3yEavXoU3qjsyDl2w3qhQ9Bv7VW24MH1VoQlKD7naiRkvkB34rgQfBixVPHu95BHVSZjCcIXL7eLPYPd-PKIXOCP6_Y-FraHURAv_0KeCfoHbUDqjObZblMfxIc5ihhMYyH-VVGs0dag_06pmxsJEAjy9E_wHgjkCV7qomaNNcC8GDOKxj9lVi2aTRDDT6xWyy-jw3NYZMsL-AHDHce0QiqmIvLANjAU4Ua0U7f8qf-mBZbTPwsxXMsYNgqqnuzNnXlUQTZ4_5PUa0hjt8gkZleqzSJ4qiUIypCe7KI5vEMwgg-E1Jieul59NUEEgQV4nvHKhiTSeMynA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6NTM1NjcyMTEsInVzZXJfaWQiOjIxMCwidXNlcl9uYW1lIjoiMTI5MjcyOTQwNiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6NzYsImNyZWF0aW9uX2RhdGUiOiIyMDIxLTA1LTAxVDExOjA4OjE5LjQ1MyIsImV4cCI6MTY4MjkyMzA5OSwianRpIjoiYTBkNTkwMDQtNzA5Mi00MjA1LWJiMGUtOGRjNDFlZjI1ZGVhIiwiYXV0aG9yaXRpZXMiOltdLCJjbGllbnRfaWQiOiJjbGllbnRBcHBJZCJ9.-vjKwb5dcDgEYKariykxpDpo5MB485Fe0eIahCby8WYCtPAvxq3pYMaZJDASUsBuQPjdKR5yotNAYPPgTyVssA9LnN-Cxgz-0ZefrjsvbXFmKWV4NZ6h7vVNcQ0XMbGO0My7wbPK_zWuWYBWIvn6avNu4zsR4cWx-4X_agKfceoaqYny6wAeH-0WnQL2uK2kg4HRg7uugnebsu3EEJJbhI0oEgdU7csqba1JNA0Ve8SwIcMuSZTXdrIyXqia4wlsetcP_JXIq9URoN0ljBI9sOu3VvzVxik120XXcQi_xg4-lwxQcsi2FxsDZpVX8OSIqDERsPSO7unJqk-o3cDzIg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"financialDocumentId\":null,\r\n\"documentDate\":\"2021/05/02\",\r\n\"documentNumber\":5554444,\r\n\"financialDocumentTypeId\":1,\r\n\"financialDocumentStatusId\":1,\r\n\"financialPeriodId\":9122,\r\n\"financialLedgerTypeId\":1,\r\n\"departmentId\":1,\r\n\"permanentDocumentNumber\":1,\r\n\"description\":\"سند دریافت\",\r\n\"automaticFlag\":true,\r\n\"financialDocumentItemDtoList\" :[\r\n    {\"financialDocumentItemId\":null,\r\n     \"sequenceNumber\":1,\r\n    \"financialAccountId\":6851,\r\n    \"debitAmount\":5500000,\r\n    \"creditAmount\":0,\r\n    \"description\":\"ردیف سند\",\r\n    \"centricAccountId1\":3,\r\n    \"centricAccountId2\":2,\r\n    \"centricAccountId3\":1,\r\n    \"centricAccountId4\":4,\r\n    \"centricAccountId5\":351,\r\n    \"centricAccountId6\":101,\r\n    \"documentReferenceList\" :[\r\n      {\"financialDocumentReferenceId\" :null,\r\n        \"referenceNumber\":33322,\r\n      \"referenceDate\" : \"2021/05/03\",\r\n      \"referenceDescription\":\"تست رسید\"\r\n    }],\r\n    \"documentItemCurrencyList\" :[{\r\n     \"financialDocumentItemCurrencyId\":null,\r\n    \"foreignDebitAmount\":400000,\r\n    \"foreignCreditAmount\" :20000000,\r\n    \"exchangeRate\" :5000,\r\n    \"moneyTypeId\":2,\r\n    \"moneyPricingReferenceId\":2\r\n    }]\r\n    },\r\n     {\"sequenceNumber\":2,\r\n    \"financialAccountId\":6955,\r\n    \"debitAmount\":0,\r\n    \"creditAmount\":200000,\r\n    \"description\":\"ردیف 554سند\",\r\n    \"centricAccountId1\":3,\r\n    \"centricAccountId2\":402,\r\n    \"centricAccountId3\":1,\r\n    \"centricAccountId4\":4,\r\n    \"centricAccountId5\":351,\r\n    \"centricAccountId6\":4014\r\n    }]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.25.71:30160/fndc/api-financialDocument/Save",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"71"
+					],
+					"port": "30160",
+					"path": [
+						"fndc",
+						"api-financialDocument",
+						"Save"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
