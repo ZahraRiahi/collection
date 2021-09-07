@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "912dd54b-2df3-48bd-8c1b-c0bd93692e01",
-		"name": "financialConfigList",
+		"_postman_id": "1dd08490-1235-4038-8d22-5ee231fc5e68",
+		"name": "listFinancialConfig",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n          {\"field\":\"organization.id\",\"value\":100,\"operator\":\"eq\",\"filters\":[]}\r\n       , {\"field\":\"financialDepartment.id\",\"value\":2,\"operator\":\"eq\",\"filters\":[]}\r\n        ,{\"field\":\"user.id\",\"value\":112,\"operator\":\"eq\",\"filters\":[]}\r\n    ]}}",
+					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n        {\"field\":\"financialDepartment.id\",\"value\":null,\"operator\":\"eq\",\"filters\":[]}\r\n        ,{\"field\":\"user.id\",\"value\":null,\"operator\":\"eq\",\"filters\":[]}\r\n    ]}}",
 					"options": {
 						"raw": {
 							"language": "json"
