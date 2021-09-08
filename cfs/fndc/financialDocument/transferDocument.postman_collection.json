@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "db374949-1858-4c30-873a-a0951d92a90d",
-		"name": "applicationUser",
+		"_postman_id": "0c9c0d12-fac7-4421-a37a-c33c42fd0585",
+		"name": "transferDocument",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://localhost:8085/api-applicationUser/Get",
+			"name": "http://192.168.25.71:30160/fndc/api-financialDocument/TransferDocument",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"take\": 100,\r\n    \"skip\": 0,\r\n    \"sort\": [],\r\n    \"group\": [\r\n        {\r\n            \"fields\": [],\r\n            \"keys\": []\r\n        }\r\n    ],\r\n    \"filter\":{}\r\n}",
+					"raw": "{\r\n\"id\":1603,\r\n\"financialDocumentItemIdList\" :[801],\r\n\"transferType\":6,\r\n\"date\":\"2021/09/10\",\r\n\"documentNumber\":14000212012,\r\n\"allItemFlag\":\"false\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -36,7 +36,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fndc/api-applicationUser/Get",
+					"raw": "http://192.168.25.71:30160/fndc/api-financialDocument/TransferDocument",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -47,12 +47,13 @@
 					"port": "30160",
 					"path": [
 						"fndc",
-						"api-ApplicationUser",
-						"Get"
+						"api-financialDocument",
+						"TransferDocument"
 					]
 				}
 			},
 			"response": []
 		}
-	]
+	],
+	"protocolProfileBehavior": {}
 }
