@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "dc566c58-7898-4bac-8cf8-43e48fe7f3b0",
-		"name": "NewFinancialPeriodList",
+		"_postman_id": "4b2556ce-c3e8-46d0-8822-166dcf3d822b",
+		"name": "financialPeriodList",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"take\": 100,\r\n    \"skip\": 0,\r\n    \"sort\": [],\r\n    \"group\": [\r\n        {\r\n            \"fields\": [],\r\n            \"keys\": []\r\n        }\r\n    ],\r\n    \"filter\":{}\r\n}",
+					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n        {\"field\":\"SEARCH_STATUS_FLAG\",\"value\":4,\"operator\":\"eq\",\"filters\":[]}\r\n    ]}}",
 					"options": {
 						"raw": {
 							"language": "json"
