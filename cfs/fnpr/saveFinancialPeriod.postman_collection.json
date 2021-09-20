@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "d4bad93d-b723-43b0-84c1-89ef2f93b8ca",
-		"name": "financialPeriodSave",
+		"_postman_id": "9dd6e57b-cec1-4ab0-baf4-24f2aa25a3b8",
+		"name": "saveFinancialPeriod",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":null,\r\n\"startDate\": \"2023-01-21T00:00:00\",\r\n\"endDate\": \"2024-01-20T00:00:00\",\r\n\"openMonthCount\":3,\r\n\"statusId\":1\r\n}",
+					"raw": "{\r\n    \"statusId\": 1,\r\n    \"id\": null,\r\n    \"openMonthCount\": 6,\r\n    \"endDate\": \"2024-08-31T19:30:00.000+00:00\",\r\n    \"startDate\": \"2023-09-01T19:30:00.000+00:00\",\r\n    \"description\":\"تست\",\r\n    \"code\":23\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
