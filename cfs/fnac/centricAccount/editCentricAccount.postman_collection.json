@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnac/api-financialAccount/Get/6555",
+			"name": "http://192.168.25.71:30160/fnac/api-financialAccount/Get",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -28,6 +28,12 @@
 						"key": "Authorization",
 						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6NTM1NjcyMTEsInVzZXJfaWQiOjIxMCwidXNlcl9uYW1lIjoiMTI5MjcyOTQwNiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6NzYsImNyZWF0aW9uX2RhdGUiOiIyMDIxLTA1LTAxVDExOjA4OjE5LjQ1MyIsImV4cCI6MTY4MjkyMzA5OSwianRpIjoiYTBkNTkwMDQtNzA5Mi00MjA1LWJiMGUtOGRjNDFlZjI1ZGVhIiwiYXV0aG9yaXRpZXMiOltdLCJjbGllbnRfaWQiOiJjbGllbnRBcHBJZCJ9.-vjKwb5dcDgEYKariykxpDpo5MB485Fe0eIahCby8WYCtPAvxq3pYMaZJDASUsBuQPjdKR5yotNAYPPgTyVssA9LnN-Cxgz-0ZefrjsvbXFmKWV4NZ6h7vVNcQ0XMbGO0My7wbPK_zWuWYBWIvn6avNu4zsR4cWx-4X_agKfceoaqYny6wAeH-0WnQL2uK2kg4HRg7uugnebsu3EEJJbhI0oEgdU7csqba1JNA0Ve8SwIcMuSZTXdrIyXqia4wlsetcP_JXIq9URoN0ljBI9sOu3VvzVxik120XXcQi_xg4-lwxQcsi2FxsDZpVX8OSIqDERsPSO7unJqk-o3cDzIg",
 						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -40,15 +46,19 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8081/api-centricAccount/Get/6801",
+					"raw": "http://192.168.25.71:30160/fnac/api-financialAccount/Get",
+					"protocol": "http",
 					"host": [
-						"localhost"
+						"192",
+						"168",
+						"25",
+						"71"
 					],
-					"port": "8081",
+					"port": "30160",
 					"path": [
-						"api-centricAccount",
-						"Get",
-						"6801"
+						"fnac",
+						"api-financialAccount",
+						"Get"
 					]
 				}
 			},
