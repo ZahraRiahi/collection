@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "3c114a08-088a-45bd-9101-1f54468fc1f7",
+		"_postman_id": "35780541-c589-4908-a87a-5f761d6d1570",
 		"name": "editCentricAccount",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -46,7 +46,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnac/api-financialAccount/Get",
+					"raw": "http://192.168.25.71:30160/fnac/api-centricAccount/Get/6801",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -57,8 +57,9 @@
 					"port": "30160",
 					"path": [
 						"fnac",
-						"api-financialAccount",
-						"Get"
+						"api-centricAccount",
+						"Get",
+						"6801"
 					]
 				}
 			},
