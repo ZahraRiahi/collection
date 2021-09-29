@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "c92fcb65-296f-44b6-9b34-823b36894554",
+		"_postman_id": "35a13a67-92aa-4eea-800a-0d8e597e816a",
 		"name": "financialPeriodParameterSave Copy 2",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"financialPeriodId\":4074,\r\n\"startDate\":\"2021-10-01T00:00:00.000+04:30\",\r\n\"taxDeductionRate\":10,\r\n\"vatTaxRate\":15,\r\n\"vatTollRate\":15,\r\n\"insuranceDeductionRate\":20,\r\n\"maxFewerAmount\":30,\r\n\"vatFillFlag\":1\r\n}",
+					"raw": "{\r\n\"id\":9042,\r\n\"financialPeriodId\":10372,\r\n\"startDate\":\"2021-10-01T00:00:00.000+04:30\",\r\n\"taxDeductionRate\":3,\r\n\"vatTaxRate\":3,\r\n\"vatTollRate\":3,\r\n\"insuranceDeductionRate\":3,\r\n\"maxFewerAmount\":3,\r\n\"vatFillFlag\":3\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
