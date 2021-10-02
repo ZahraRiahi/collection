@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "a62f4602-da5d-4b47-8285-01ace7e8848f",
+		"_postman_id": "628f0c67-ea05-4def-b75e-72b43bf38220",
 		"name": "centricAccountSave",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":null,\r\n\"code\":\"06100\",\r\n\"name\":\"2222ابراهیم ستاری\",\r\n\"centricAccountTypeCode\":\"10\",\r\n\"personId\":3,\r\n\"centricPersonRoleListId\":[1],\r\n\"activeFlag\":1,\r\n\"parentCentricAccountId\":null\r\n}",
+					"raw": "{\r\n\"id\":null,\r\n\"code\":\"06100\",\r\n\"name\":\"2222ابراهیم ستاری\",\r\n\"centricAccountTypeCode\":\"10\",\r\n\"personId\":2,\r\n\"centricPersonRoleListId\":[1],\r\n\"activeFlag\":1,\r\n\"parentCentricAccountId\":null\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -37,12 +37,17 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8082/api-centricAccount/save",
+					"raw": "http://192.168.25.71:30160/fnac/api-centricAccount/save",
+					"protocol": "http",
 					"host": [
-						"localhost"
+						"192",
+						"168",
+						"25",
+						"71"
 					],
-					"port": "8082",
+					"port": "30160",
 					"path": [
+						"fnac",
 						"api-centricAccount",
 						"save"
 					]
