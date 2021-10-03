@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "628f0c67-ea05-4def-b75e-72b43bf38220",
+		"_postman_id": "4e68ad04-109d-4ad4-a5b8-c4887750d2d9",
 		"name": "centricAccountSave",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":null,\r\n\"code\":\"06100\",\r\n\"name\":\"2222ابراهیم ستاری\",\r\n\"centricAccountTypeCode\":\"10\",\r\n\"personId\":2,\r\n\"centricPersonRoleListId\":[1],\r\n\"activeFlag\":1,\r\n\"parentCentricAccountId\":null\r\n}",
+					"raw": "{\r\n\"id\":7502,\r\n\"code\":\"061001\",\r\n\"name\":\"ابراهیم ستاری\",\r\n\"centricAccountTypeCode\":\"50\",\r\n\"centricAccountTypeId\":8,\r\n\"personId\":null,\r\n\"centricPersonRoleListId\":[1,2],\r\n\"activeFlag\":1,\r\n\"parentCentricAccountId\":null\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
