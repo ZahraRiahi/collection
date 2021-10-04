@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "806ede97-3506-479e-81d6-f6b292caaa1b",
-		"name": "FinctionAccount",
+		"_postman_id": "b7dc3d4d-2f7b-4e51-a3ea-282e3518165c",
+		"name": "FinancialDocumentChangeAccount",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":2,\r\n\"financialAccountId\":2,\r\n\"newFinancialAccountId\":5\r\n}",
+					"raw": "{\r\n\"id\":5551,\r\n\"financialDocumentItemIdList\":[5601,5603],\r\n\"financialAccountId\":6851,\r\n\"newFinancialAccountId\":7004\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

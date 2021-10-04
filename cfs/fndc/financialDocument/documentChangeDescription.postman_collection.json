@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "ed33c8bf-2561-449c-953b-21f4537172fd",
+		"_postman_id": "232002e7-7d13-424b-b79e-42543f6b8f7e",
 		"name": "documentChangeDescription",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":1,\r\n\"oldDescription\":\"ارسال\",\r\n\"newDescription\": \"تست سند4\"\r\n}",
+					"raw": "{\r\n\"id\":5551,\r\n\"financialDocumentItemIdList\" :[5601,5603],\r\n\"oldDescription\":\"تست\",\r\n\"newDescription\": \"سند\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
