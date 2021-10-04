@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "bdcdf4b2-105b-4b3b-8889-96cee176241a",
+		"_postman_id": "8262a2b7-1cb1-4c53-ad0d-dbdefcf53de1",
 		"name": "changeAmount",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":2\r\n}",
+					"raw": "{\r\n\"id\":5551,\r\n\"financialDocumentItemIdList\":[5601,5603]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
