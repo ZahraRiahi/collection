@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n        {\"field\":\"SEARCH_STATUS_FLAG\",\"value\":4,\"operator\":\"eq\",\"filters\":[]}\r\n    ]}}",
+					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n        {\"field\":\"SEARCH_STATUS_FLAG\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n    ]}}",
 					"options": {
 						"raw": {
 							"language": "json"

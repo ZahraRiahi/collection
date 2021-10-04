@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "3b931351-1450-4d82-846f-5a430705d0d1",
-		"name": "financialPeriodParameterSave",
+		"_postman_id": "7ec58b7f-98cc-4f48-bb0f-819174706f68",
+		"name": "setStatusFinancialAccount",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnpr/api-financialPeriodParameter/save",
+			"name": "http://192.168.25.71:30160/fnac/api-financialAccount/setStatus",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":9042,\r\n\"financialPeriodId\":10372,\r\n\"startDate\":\"2021-10-01T00:00:00.000+04:30\",\r\n\"taxDeductionRate\":3,\r\n\"vatTaxRate\":3,\r\n\"vatTollRate\":3,\r\n\"insuranceDeductionRate\":3,\r\n\"maxFewerAmount\":3,\r\n\"vatFillFlag\":3\r\n}",
+					"raw": "{\r\n\"financialAccountId\":6556,\r\n\"statusFlag\":1\r\n\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -37,7 +37,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnpr/api-financialPeriodParameter/save",
+					"raw": "http://192.168.25.71:30160/fnac/api-financialAccount/setStatus",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -47,9 +47,9 @@
 					],
 					"port": "30160",
 					"path": [
-						"fnpr",
-						"api-financialPeriodParameter",
-						"save"
+						"fnac",
+						"api-financialAccount",
+						"setStatus"
 					]
 				}
 			},

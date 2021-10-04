@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "9dd6e57b-cec1-4ab0-baf4-24f2aa25a3b8",
+		"_postman_id": "bab42309-045a-4a8e-9d9f-1662503a2498",
 		"name": "saveFinancialPeriod",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"statusId\": 1,\r\n    \"id\": null,\r\n    \"openMonthCount\": 6,\r\n    \"endDate\": \"2024-08-31T19:30:00.000+00:00\",\r\n    \"startDate\": \"2023-09-01T19:30:00.000+00:00\",\r\n    \"description\":\"تست\",\r\n    \"code\":23\r\n}\r\n",
+					"raw": "{\r\n    \"statusId\":1,\r\n    \"id\": null,\r\n    \"openMonthCount\":1,\r\n    \"startDate\": \"2021-08-23T00:00:00\",\r\n    \"endDate\":   \"2022-08-22T00:00:00\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -54,5 +54,6 @@
 			},
 			"response": []
 		}
-	]
+	],
+	"protocolProfileBehavior": {}
 }
