@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "99e3c4bb-f5e5-43de-b636-013261e92d41",
+		"_postman_id": "ef849609-aa1e-4bd9-8713-8a7040fb539e",
 		"name": "centricAccount",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":2,\r\n\"centricAccountId\":451,\r\n\"newCentricAccountId\":3,\r\n\"accountId\":4\r\n}",
+					"raw": "{\r\n\"id\":5551,\r\n\"centricAccountId\":1,\r\n\"newCentricAccountId\":1202,\r\n\"financialDocumentItemIdList\":[5601,5603]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
