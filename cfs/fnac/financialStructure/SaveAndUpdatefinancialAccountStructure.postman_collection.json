@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "c86e17e9-2d28-4c14-84ab-e72d55d1a9d3",
+		"_postman_id": "d7593f2f-3869-40bd-8ae2-c619c99dc489",
 		"name": "SaveAndUpdatefinancialAccountStructure",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":null,\r\n\"description\":\"تست\",\r\n\"sequence\":20,\r\n\"digitCount\":3,\r\n\"sumDigit\":3,\r\n\"color\":\"#11ab8f\",\r\n\"financialCodingTypeId\":1\r\n }",
+					"raw": "{\r\n\"id\":null,\r\n\"description\":\"2تست\",\r\n\"sequence\":10,\r\n\"digitCount\":3,\r\n\"sumDigit\":null,\r\n\"color\":null,\r\n\"financialCodingTypeId\":1,\r\n\"flgShowInAcc\":1,\r\n\"flgPermanentStatus\":1\r\n }",
 					"options": {
 						"raw": {
 							"language": "json"
