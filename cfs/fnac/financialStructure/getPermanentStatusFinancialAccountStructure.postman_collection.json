@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "ba7bb06f-76c8-42e7-9c27-35557297a5a3",
+		"_postman_id": "a714debe-84ce-431c-806f-45e6769b7388",
 		"name": "getPermanentStatusFinancialAccountStructure",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"financialCodingTypeId\":7002,\r\n\"financialAccountStructureId\":7551,\r\n\"financialAccountParentId\":7003\r\n}",
+					"raw": "{\r\n\"financialCodingTypeId\":7001,\r\n\"financialAccountStructureId\":null,\r\n\"financialAccountParentId\":null,\r\n\"flgEditMode\":1\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
