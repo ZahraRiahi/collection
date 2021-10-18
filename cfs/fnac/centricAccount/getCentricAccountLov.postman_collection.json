@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "6e9b3aac-d830-41d7-82bc-93176d1e9359",
+		"_postman_id": "66ea5837-1c1b-4724-a93e-e3accbe8cb5e",
 		"name": "getCentricAccountLov",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnac/api-centricAccount/Get/1",
+			"name": "http://192.168.25.71:30160/fnac/api-centricAccount/Get",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"centricAccountTypeId\":8,\r\n\"parentCentricAccountId\":null\r\n}",
+					"raw": "{\"take\":20,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n       {\"field\":\"centricAccountType.id\",\"value\":8,\"operator\":\"eq\",\"filters\":[]},\r\n       {\"field\":\"parentCentricAccount.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n       ]}}",
 					"options": {
 						"raw": {
 							"language": "json"
