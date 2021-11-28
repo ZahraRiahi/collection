@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "083c87a2-53e6-416a-9b37-e3d09073bcc9",
+		"_postman_id": "10337c8f-93fb-4517-91a9-12c62445c7f4",
 		"name": "bankBranchSave",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n \"bankId\":203,\r\n \"branchCode\":\"1040\",\r\n \"branchName\":\"شعبه 1\",\r\n \"telNumber\":null,\r\n \"faxNumber\":null,\r\n \"boxCode\":1,\r\n \"postCode\":null,\r\n \"branchAddress\":null\r\n \r\n}",
+					"raw": "{\r\n    \"branchId\": 1402,\r\n    \"bankId\": 1052,\r\n    \"branchCode\": \"1060\",\r\n    \"branchName\": \"شعبه66\",\r\n    \"telNumber\": \"test1\",\r\n    \"faxNumber\": \"test1\",\r\n    \"boxCode\": \"test1\",\r\n    \"postCode\": \"test1\",\r\n    \"branchAddress\": \"test\",\r\n    \"activeFlag\": false\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
