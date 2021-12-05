@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "c86e17e9-2d28-4c14-84ab-e72d55d1a9d3",
+		"_postman_id": "b613fecc-9dca-4bb8-bbd9-3bec63b1f58f",
 		"name": "SaveAndUpdatefinancialAccountStructure",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":null,\r\n\"description\":\"تست\",\r\n\"sequence\":20,\r\n\"digitCount\":3,\r\n\"sumDigit\":3,\r\n\"color\":\"#11ab8f\",\r\n\"financialCodingTypeId\":1\r\n }",
+					"raw": "{\r\n\"id\":null,\r\n\"description\":\"-کاظمی تست\",\r\n\"sequence\":9,\r\n\"digitCount\":3,\r\n\"sumDigit\":null,\r\n\"color\":null,\r\n\"financialCodingTypeId\":7001,\r\n\"flgShowInAcc\":false,\r\n\"flgPermanentStatus\":true\r\n }",
 					"options": {
 						"raw": {
 							"language": "json"

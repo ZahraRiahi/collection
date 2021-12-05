@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "66ea5837-1c1b-4724-a93e-e3accbe8cb5e",
-		"name": "getCentricAccountLov",
+		"_postman_id": "f0034349-838e-4f2c-b288-b0f05a62f2cf",
+		"name": "getSuggestedCodeFinancialAccount",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnac/api-centricAccount/Get",
+			"name": "http://192.168.25.71:30160/fnac/api-centricAccount/Get/1",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"take\":20,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n       {\"field\":\"centricAccountType.id\",\"value\":8,\"operator\":\"eq\",\"filters\":[]},\r\n       {\"field\":\"parentCentricAccount.id\",\"value\":1,\"operator\":\"eq\",\"filters\":[]}\r\n       ]}}",
+					"raw": "{\r\n\"financialAccountParentId\":11008,\r\n\"financialCodingTypeId\":8001,\r\n\"financialAccountStructureId\":8452\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -37,7 +37,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fnac/api-centricAccount/Get",
+					"raw": "http://192.168.25.71:30160/fnac/api-financialAccount/GetSuggestedCode",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -48,8 +48,8 @@
 					"port": "30160",
 					"path": [
 						"fnac",
-						"api-centricAccount",
-						"Get"
+						"api-financialAccount",
+						"GetSuggestedCode"
 					]
 				}
 			},
