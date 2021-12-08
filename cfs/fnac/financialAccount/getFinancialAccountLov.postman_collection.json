@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "dfd4f4d4-aaf9-44cd-a770-29b3a8066bb0",
+		"_postman_id": "fac76161-3714-45dc-9cb7-2d4573bb23ee",
 		"name": "getFinancialAccountLov",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -35,7 +35,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"take\":20,\r\n\"skip\":20,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n    \r\n       ]}}",
+					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n     {\"field\":\"financialAccountStructure.financialCodingType.id\",\"value\":7001,\"operator\":\"eq\",\"filters\":[]}\r\n\r\n       ]}}",
 					"options": {
 						"raw": {
 							"language": "json"
