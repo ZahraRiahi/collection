@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "4b52b286-c6a6-47e5-9b28-552a82a5d149",
+		"name": "financialDocumentSummarizeGet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.25.71:30160/fndc/api-financialDocumentSummarize/Get",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MzcyMDQsInVzZXJfaWQiOjEsInVzZXJfbmFtZSI6ImRvY3RvciIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNS0wMlQxNjowMjo0Mi41NTMiLCJleHAiOjE2ODMwMjcxNjIsImp0aSI6IjJkMTNlYjVmLWNhNGMtNDgzYi1hYjY4LTRjZWUxYzVkZjU2NyIsImNsaWVudF9pZCI6ImNsaWVudEFwcElkIn0.rTXkxc56P3yEavXoU3qjsyDl2w3qhQ9Bv7VW24MH1VoQlKD7naiRkvkB34rgQfBixVPHu95BHVSZjCcIXL7eLPYPd-PKIXOCP6_Y-FraHURAv_0KeCfoHbUDqjObZblMfxIc5ihhMYyH-VVGs0dag_06pmxsJEAjy9E_wHgjkCV7qomaNNcC8GDOKxj9lVi2aTRDDT6xWyy-jw3NYZMsL-AHDHce0QiqmIvLANjAU4Ua0U7f8qf-mBZbTPwsxXMsYNgqqnuzNnXlUQTZ4_5PUa0hjt8gkZleqzSJ4qiUIypCe7KI5vEMwgg-E1Jieul59NUEEgQV4nvHKhiTSeMynA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MzcyMDQsInVzZXJfaWQiOjEsInVzZXJfbmFtZSI6ImRvY3RvciIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJhdGkiOiJiODM2YmFjNC1hZGJiLTQzODMtYjJlNy1kZmViNTYwOTJkMzEiLCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNi0wOFQxNDoyOToxNy4wMTMiLCJleHAiOjE2MjMxNTAzNTcsImp0aSI6ImI5N2U5NTg4LWY2YWMtNDE5Ni1hZjA2LWVjOGU1MDBiYzhmMiIsImNsaWVudF9pZCI6ImNsaWVudEFwcElkIn0.fyEMib-C2jo4F2RGWrrvpQI-FSUbPYA9jsSy1HuH8Sx5CMoUzlAc0Gv9qT0BelE6-xjjW1FOBAmcpBNWgDuxKTMwii46dyKsKE2jN70k2DowNDYl9jDQ-LhDZW6tHU-cIbedrV0BH-pE6LA8STJujHDO4KyC4NoNCHvT81Ib83yuBgu6DhFWF_N0t9gFavCi7iL6Nv9unsmAvUYWTqk4ozewcS6yn0aO_D2sngbvBZrSAfF18ln-8F6Q4KgrkHi771T3pXIjfUwLf2Khr7_3jiieJSZjUt8B_bEGfZ3QchsRt7MrjFlk7i5gvKrDVzf4gtQZTA69rqX6bdr3R6i2Gw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"financialDocumentId\": 3251,\r\n    \"financialDocumentItems\":[3252,3251]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.25.71:30160/fndc/api-financialDocumentSummarize/Get",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"71"
+					],
+					"port": "30160",
+					"path": [
+						"fndc",
+						"api-financialDocumentSummarize",
+						"Get"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
