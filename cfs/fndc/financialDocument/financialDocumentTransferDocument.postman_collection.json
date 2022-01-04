@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"financialDocumentItemIdList\": [\r\n        17301\r\n    ],\r\n    \"id\": 16251,\r\n    \"allItemFlag\": null,\r\n    \"transferType\": 6,\r\n    \"targetDocumentNumber\": \"10501140010110005\"\r\n}",
+					"raw": "{\r\n    \"financialDocumentItemIdList\": [\r\n        17301\r\n    ],\r\n    \"id\": 16251,\r\n    \"allItemFlag\": null,\r\n    \"transferType\": 6,\r\n    \"targetDocumentNumber\": \"10501140010110005\",\r\n    \"date\": \"2022-01-02T00:00:00.000Z\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
