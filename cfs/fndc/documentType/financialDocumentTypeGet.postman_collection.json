@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "03fc8cc4-957f-4e9b-bb09-4b34af6c7b66",
+		"_postman_id": "8ce4aec8-8f0f-441f-93b1-a7ac63fb788b",
 		"name": "financialDocumentTypeGet",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"searchStatusFlag\" :1}",
+					"raw": "{\"searchStatusFlag\" :1,\r\n\"financialSystemId\":2\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
