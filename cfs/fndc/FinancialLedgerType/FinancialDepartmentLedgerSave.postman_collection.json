@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "77d4a80b-13c1-46db-9549-3a87b06004eb",
+		"_postman_id": "b72213ca-f5cf-445b-88e2-123b67c9b5e3",
 		"name": "FinancialDepartmentLedgerSave",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -22,7 +22,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "[\r\n    {\r\n        \"financialDepartmentLedgerId\": null,\r\n        \"financialDepartmentId\":null,\r\n        \"financialLedgerTypeId\":null\r\n    }\r\n]",
+					"raw": "[\r\n    {\r\n        \"financialDepartmentLedgerId\": null,\r\n        \"departmentId\":null,\r\n        \"financialLedgerTypeId\":null\r\n    }\r\n]",
 					"options": {
 						"raw": {
 							"language": "json"

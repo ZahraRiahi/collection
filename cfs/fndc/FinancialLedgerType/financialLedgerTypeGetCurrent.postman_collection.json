@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "b83bb8bc-6010-473f-9fed-375c30f2dbde",
+		"_postman_id": "f803c5f7-7119-4ab8-a331-547a14fe6351",
 		"name": "financialLedgerTypeGetCurrent",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"financialDepartmentId\": 5\r\n}",
+					"raw": "{\r\n\"departmentId\": 5\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
