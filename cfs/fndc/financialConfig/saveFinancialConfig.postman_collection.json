@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "e3e4fce6-0bf1-4e6e-a100-5fd811e36856",
+		"_postman_id": "e416836a-c767-44f0-805b-67e3a8aa483a",
 		"name": "saveFinancialConfig",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":202,\r\n\"organizationId\":100,\r\n\"financialDepartmentId\":2,\r\n\"userId\":125,\r\n\"financialDocumentTypeId\":1,\r\n\"documentDescription\":\"2تست شرح پیش فرض\",\r\n\"financialLedgerTypeId\":1,\r\n\"financialPeriodId\":577\r\n }",
+					"raw": "{\r\n\"id\":12004,\r\n\"financialDepartmentId\":2,\r\n\"userId\":125,\r\n\"financialDocumentTypeId\":151,\r\n\"documentDescription\":\"11111تست شرح پیش فرض\",\r\n\"financialLedgerTypeId\":1,\r\n\"financialPeriodId\":15222,\r\n\"departmentId\":1\r\n }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -36,7 +36,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fndc/api-financialConfig/Save",
+					"raw": "http://192.168.25.71:30160/fnac/api-financialConfig/Save",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -46,7 +46,7 @@
 					],
 					"port": "30160",
 					"path": [
-						"fndc",
+						"fnac",
 						"api-financialConfig",
 						"Save"
 					]
