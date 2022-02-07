@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "de197f98-e153-42f5-ade0-46586c1256cc",
+		"name": "financialDocumentSecurityGet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.25.71:30160/fnsc/api-financialDocumentSecurity/Get",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6NywidXNlcl9pZCI6MTEyLCJ1c2VyX25hbWUiOiJGTkNfVVNFUiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6MTAwLCJhcHBsaWNhdGlvbl9zeXN0ZW1faWQiOjg2OCwiY3JlYXRpb25fZGF0ZSI6IjIwMjItMDItMDVUMTU6MzI6MTUuMzAwIiwiZXhwIjoxNzA3MTM0NTM1LCJqdGkiOiJmMzAyZGJlMi1kYjdjLTQzNTEtYThjOS1kMDk3NGZmMzliZjUiLCJhdXRob3JpdGllcyI6WyIxMDAiLCIxMDEiLCIxMDIiLCIxMDMiLCIxMDQiLCIxMDUiLCIxMDYiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.Oq4oYfwyS36LqBfu4wnSx8oMJ1mVwHzGh6jom5Ce5VfFbAzn3yZfhpXCkDMSbDXe1pCTjCLZATkwf5fDmprgyQzcsJsv9WYIi05SHwUR7C16XP3Rr4X3gjsWugSXJ2cC7JuhCEzEo4o-MmZEcPi3o4ZWelHlMmpSr-v5cWBIOm7NijQkH6H-NYQ4MxefAW1JBa3kZ8n0ThONwlCO7W37mtcEZQ6_N38ZWuHS2_MracSJ5ObQizrWttRKfrrPbp0UrlpPqf5UEK03pgz1sYhBBYsVrDkcjf7-jXo_qs34Lr9KCKk_w1nchxp4-cCv4WNsmILUt06TgwGFiMGDDxXQqw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6NywidXNlcl9pZCI6MTEyLCJ1c2VyX25hbWUiOiJGTkNfVVNFUiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6MTAwLCJhcHBsaWNhdGlvbl9zeXN0ZW1faWQiOjg2OCwiY3JlYXRpb25fZGF0ZSI6IjIwMjItMDItMDVUMTU6MzI6MTUuMzAwIiwiZXhwIjoxNzA3MTM0NTM1LCJqdGkiOiJmMzAyZGJlMi1kYjdjLTQzNTEtYThjOS1kMDk3NGZmMzliZjUiLCJhdXRob3JpdGllcyI6WyIxMDAiLCIxMDEiLCIxMDIiLCIxMDMiLCIxMDQiLCIxMDUiLCIxMDYiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.Oq4oYfwyS36LqBfu4wnSx8oMJ1mVwHzGh6jom5Ce5VfFbAzn3yZfhpXCkDMSbDXe1pCTjCLZATkwf5fDmprgyQzcsJsv9WYIi05SHwUR7C16XP3Rr4X3gjsWugSXJ2cC7JuhCEzEo4o-MmZEcPi3o4ZWelHlMmpSr-v5cWBIOm7NijQkH6H-NYQ4MxefAW1JBa3kZ8n0ThONwlCO7W37mtcEZQ6_N38ZWuHS2_MracSJ5ObQizrWttRKfrrPbp0UrlpPqf5UEK03pgz1sYhBBYsVrDkcjf7-jXo_qs34Lr9KCKk_w1nchxp4-cCv4WNsmILUt06TgwGFiMGDDxXQqw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"financialDocumentId\": null,\r\n    \"financialDocumentItemId\": null,\r\n    \"activityCode\": \"1111\",\r\n    \"securityModelRequest\": {\r\n        \"userId\": 1,\r\n        \"departmentId\": null,\r\n        \"financialDepartmentId\": null,\r\n        \"financialLedgerId\": null,\r\n        \"financialPeriodId\": null,\r\n        \"documentTypeId\": 1,\r\n        \"subjectId\": null,\r\n        \"activityCode\": \"1111\",\r\n        \"inputFromConfigFlag\": false,\r\n        \"creatorUserId\": null\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.25.71:30160/fnsc/api-financialDocumentSecurity/Get",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"71"
+					],
+					"port": "30160",
+					"path": [
+						"fnsc",
+						"api-financialDocumentSecurity",
+						"Get"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
