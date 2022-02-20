@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "4f7a895e-b27e-4026-88a4-38f5c95bf29c",
+		"_postman_id": "f77d4438-f7bd-40ad-b9cb-63f2c1d09789",
 		"name": "financialDepartmentList",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -34,7 +34,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"take\":100,\r\n\"skip\":0,\r\n\"sort\":[],\"group\":[{\"fields\":[],\"keys\":[]}],\r\n\"filter\":{\"logic\":\"and\",\r\n\"filters\":[\r\n   {\"field\":\"department.id\",\"value\":2,\"operator\":\"eq\",\"filters\":[]}\r\n    ]}}",
+					"raw": "{\r\n    \"take\": 100,\r\n    \"skip\": 0,\r\n    \"sort\": [],\r\n    \"group\": [\r\n        {\r\n            \"fields\": [],\r\n            \"keys\": []\r\n        }\r\n    ],\r\n    \"filter\": {\r\n        \"logic\": \"and\",\r\n        \"filters\": [\r\n          {\r\n                \"field\": \"departmentId\",\r\n                \"value\": 81,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"financialDepartmentId\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"financialLedgerId\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"financialPeriodId\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"documentTypeId\",\r\n                \"value\": 151,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"subjectId\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            } ,\r\n            {\r\n                \"field\": \"activityCode\",\r\n                \"value\": \"FNDC_DOCUMENT_CONF\",\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"inputFromConfigFlag\",\r\n                \"value\": true,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            }\r\n        ]\r\n    }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
