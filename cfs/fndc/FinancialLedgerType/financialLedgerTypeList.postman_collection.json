@@ -34,7 +34,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"take\": 100,\r\n    \"skip\": 0,\r\n    \"sort\": [],\r\n    \"group\": [\r\n        {\r\n            \"fields\": [],\r\n            \"keys\": []\r\n        }\r\n    ],\r\n    \"filter\": {\r\n        \"logic\": \"and\",\r\n        \"filters\": [\r\n            {\r\n                \"field\": \"id\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"financialCodingTypeId\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            } ,\r\n            {\r\n                \"field\": \"departmentId\",\r\n                \"value\": 81,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"financialDepartmentId\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"financialLedgerId\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"financialPeriodId\",\r\n                \"value\": 16172,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"documentTypeId\",\r\n                \"value\": 151,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"subjectId\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            } ,\r\n            {\r\n                \"field\": \"activityCode\",\r\n                \"value\": \"FNDC_DOCUMENT_CONF\",\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"inputFromConfigFlag\",\r\n                \"value\": true,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            }\r\n        ]\r\n    }\r\n}",
+					"raw": "{\r\n    \"take\": 100,\r\n    \"skip\": 0,\r\n    \"sort\": [],\r\n    \"group\": [\r\n        {\r\n            \"fields\": [],\r\n            \"keys\": []\r\n        }\r\n    ],\r\n    \"filter\": {\r\n        \"logic\": \"and\",\r\n        \"filters\": [\r\n            {\r\n                \"field\": \"id\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"financialCodingTypeId\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            } ,\r\n            {\r\n                \"field\": \"departmentId\",\r\n                \"value\": 81,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"financialDepartmentId\",\r\n                \"value\": 6,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"financialLedgerId\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"financialPeriodId\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"documentTypeId\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"subjectId\",\r\n                \"value\": null,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            } ,\r\n            {\r\n                \"field\": \"activityCode\",\r\n                \"value\": \"FNDC_LEDGER_QUERY\",\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"inputFromConfigFlag\",\r\n                \"value\": false,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            }\r\n        ]\r\n    }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -42,17 +42,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/fndc/api-financialLedgerType/List",
-					"protocol": "http",
+					"raw": "localhost:8085/api-financialLedgerType/List",
 					"host": [
-						"192",
-						"168",
-						"25",
-						"71"
+						"localhost"
 					],
-					"port": "30160",
+					"port": "8085",
 					"path": [
-						"fndc",
 						"api-financialLedgerType",
 						"List"
 					]
