@@ -29,7 +29,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"departmentId\": 81,\r\n    \"financialDepartmentId\": null,\r\n    \"financialLedgerId\": null,\r\n    \"financialPeriodId\": null,\r\n    \"documentTypeId\": null,\r\n    \"subjectId\": null,\r\n    \"activityCode\": \"FNDC_DOCUMENT_CONF\",\r\n    \"inputFromConfigFlag\": false\r\n}\r\n\r\n",
+					"raw": "{\r\n    \"departmentId\": 81,\r\n    \"financialDepartmentId\": null,\r\n    \"financialLedgerId\": null,\r\n    \"financialPeriodId\": null,\r\n    \"documentTypeId\": null,\r\n    \"subjectId\": null,\r\n    \"activityCode\": \"FNDC_LEDGER_QUERY\",\r\n    \"inputFromConfigFlag\": false\r\n}\r\n\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
