@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/rprq/api_Request/Delete",
+			"name": "http://192.168.25.71:30160/rprq/api-RequestItem/Delete",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},

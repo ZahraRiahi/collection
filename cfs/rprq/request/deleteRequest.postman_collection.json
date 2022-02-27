@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/rprq/api_Request/Delete",
+			"name": "http://192.168.25.71:30160/rprq/api-Request/Delete",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -40,7 +40,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/rprq/api_Request/Delete",
+					"raw": "http://192.168.25.71:30160/rprq/api-Request/Delete",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -51,7 +51,7 @@
 					"port": "30160",
 					"path": [
 						"rprq",
-						"api_Request",
+						"api-Request",
 						"Delete"
 					]
 				}
