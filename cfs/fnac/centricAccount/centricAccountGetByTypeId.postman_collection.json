@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "9d58b517-db35-4395-b2cf-f326511c05ae",
+		"_postman_id": "57f1cba7-0681-47ff-9535-abbccdc9f28f",
 		"name": "centricAccountGetByTypeId",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/fnac/api-financialAccount/save",
+			"name": "http://192.168.25.71:30160/fnac/api-centricAccount/GetByTypeId",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -34,7 +34,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"centricAccountTypeListId\":[1,2,3]\r\n   \r\n}",
+					"raw": "{\r\n    \"centricAccountTypeId\":3\r\n   \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
