@@ -1,19 +1,19 @@
 {
 	"info": {
-		"_postman_id": "cf30aa67-b427-45dd-80d6-42e9b6b23dd6",
+		"_postman_id": "660ea2af-c31c-4f51-abcd-297e14af2c79",
 		"name": "getCurrentFinancialPeriod",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://localhost:8085/api-financialPeriodTypeAssign/save",
+			"name": "http://192.168.25.71:30160/fnpr/api-financialPeriod/GetCurrent",
 			"request": {
 				"auth": {
 					"type": "bearer",
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MzcyMDQsInVzZXJfaWQiOjEsInVzZXJfbmFtZSI6ImRvY3RvciIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNS0wMlQxNjowMjo0Mi41NTMiLCJleHAiOjE2ODMwMjcxNjIsImp0aSI6IjJkMTNlYjVmLWNhNGMtNDgzYi1hYjY4LTRjZWUxYzVkZjU2NyIsImNsaWVudF9pZCI6ImNsaWVudEFwcElkIn0.rTXkxc56P3yEavXoU3qjsyDl2w3qhQ9Bv7VW24MH1VoQlKD7naiRkvkB34rgQfBixVPHu95BHVSZjCcIXL7eLPYPd-PKIXOCP6_Y-FraHURAv_0KeCfoHbUDqjObZblMfxIc5ihhMYyH-VVGs0dag_06pmxsJEAjy9E_wHgjkCV7qomaNNcC8GDOKxj9lVi2aTRDDT6xWyy-jw3NYZMsL-AHDHce0QiqmIvLANjAU4Ua0U7f8qf-mBZbTPwsxXMsYNgqqnuzNnXlUQTZ4_5PUa0hjt8gkZleqzSJ4qiUIypCe7KI5vEMwgg-E1Jieul59NUEEgQV4nvHKhiTSeMynA",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MTExLCJ1c2VyX2lkIjoxMTIsInVzZXJfbmFtZSI6IkZOQ19VU0VSIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sIm9yZ2FuaXphdGlvbl91c2VyX2lkIjoxMDAsImFwcGxpY2F0aW9uX3N5c3RlbV9pZCI6ODY4LCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNy0yOFQwOToyNDoyNy4wMjUiLCJleHAiOjM3NzQ5MzE3MTMsImp0aSI6IjY1NGIzNmQwLWNiMGItNDZhMC05M2IwLTE3ZmRiZGRiZTAwMSIsImF1dGhvcml0aWVzIjpbIjEwNCIsIk1OR19GTkNfUEVSSU9EIiwiMTAxIiwiT1JHX0ZOQ19QRVJJT0QiLCIxMDAiLCIxMDMiLCIxMDIiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.8fCGrIQGgeDmXaJPTsJe8zXaC1a_r-bbwjrZM1PDX7GHLelaSuQykUmgMKHCqRUx7eVF69toCvuPJ_HzRYYXMtI-i-NRDgAVajvT4q5wjbCy8CriML2Y4cs6ZaaDvlGCxJ9AKaRYROk6aWmfWiJKkHJMbT04GAirGF0vdD0DkXC8xLzzWm_FoQ7TuX6GT3gVAvX5CORhxPlVolAuD0mz_gm0dxfNFeGArDKs87BXSTqUyJdKvFqVGoy3ugDpYBRiepynw7YCK-_yiXG_fA7DkSnDcjPHmAqYbWNi3e2phjVcLwT7clFW9dPhPKMTvy6ZHD3Hfyb1l1P7PkSerjRebw",
 							"type": "string"
 						}
 					]
@@ -22,13 +22,13 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6NTM1NjcyMTEsInVzZXJfaWQiOjIxMCwidXNlcl9uYW1lIjoiMTI5MjcyOTQwNiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6NzYsImNyZWF0aW9uX2RhdGUiOiIyMDIxLTA1LTAxVDExOjA4OjE5LjQ1MyIsImV4cCI6MTY4MjkyMzA5OSwianRpIjoiYTBkNTkwMDQtNzA5Mi00MjA1LWJiMGUtOGRjNDFlZjI1ZGVhIiwiYXV0aG9yaXRpZXMiOltdLCJjbGllbnRfaWQiOiJjbGllbnRBcHBJZCJ9.-vjKwb5dcDgEYKariykxpDpo5MB485Fe0eIahCby8WYCtPAvxq3pYMaZJDASUsBuQPjdKR5yotNAYPPgTyVssA9LnN-Cxgz-0ZefrjsvbXFmKWV4NZ6h7vVNcQ0XMbGO0My7wbPK_zWuWYBWIvn6avNu4zsR4cWx-4X_agKfceoaqYny6wAeH-0WnQL2uK2kg4HRg7uugnebsu3EEJJbhI0oEgdU7csqba1JNA0Ve8SwIcMuSZTXdrIyXqia4wlsetcP_JXIq9URoN0ljBI9sOu3VvzVxik120XXcQi_xg4-lwxQcsi2FxsDZpVX8OSIqDERsPSO7unJqk-o3cDzIg",
+						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MTExLCJ1c2VyX2lkIjoxMTIsInVzZXJfbmFtZSI6IkZOQ19VU0VSIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sIm9yZ2FuaXphdGlvbl91c2VyX2lkIjoxMDAsImFwcGxpY2F0aW9uX3N5c3RlbV9pZCI6ODY4LCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNy0yOFQwOToyNDoyNy4wMjUiLCJleHAiOjM3NzQ5MzE3MTMsImp0aSI6IjY1NGIzNmQwLWNiMGItNDZhMC05M2IwLTE3ZmRiZGRiZTAwMSIsImF1dGhvcml0aWVzIjpbIjEwNCIsIk1OR19GTkNfUEVSSU9EIiwiMTAxIiwiT1JHX0ZOQ19QRVJJT0QiLCIxMDAiLCIxMDMiLCIxMDIiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.8fCGrIQGgeDmXaJPTsJe8zXaC1a_r-bbwjrZM1PDX7GHLelaSuQykUmgMKHCqRUx7eVF69toCvuPJ_HzRYYXMtI-i-NRDgAVajvT4q5wjbCy8CriML2Y4cs6ZaaDvlGCxJ9AKaRYROk6aWmfWiJKkHJMbT04GAirGF0vdD0DkXC8xLzzWm_FoQ7TuX6GT3gVAvX5CORhxPlVolAuD0mz_gm0dxfNFeGArDKs87BXSTqUyJdKvFqVGoy3ugDpYBRiepynw7YCK-_yiXG_fA7DkSnDcjPHmAqYbWNi3e2phjVcLwT7clFW9dPhPKMTvy6ZHD3Hfyb1l1P7PkSerjRebw",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"date\": \"2023-03-20\"\r\n}",
+					"raw": "{\r\n\"date\": \"2023-03-20\",\r\n\"financialPeriodTypeId\": null\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
