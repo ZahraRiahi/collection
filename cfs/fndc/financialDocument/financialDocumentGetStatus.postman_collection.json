@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30085/fndc/api-financialDocument/GetPeriodLedgerStatus",
+			"name": "http://192.168.25.71:30160/fndc/api-financialDocument/GetPeriodLedgerStatus",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -36,7 +36,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30085/fndc/api-financialDocument/GetPeriodLedgerStatus",
+					"raw": "http://192.168.25.71:30160/fndc/api-financialDocument/GetPeriodLedgerStatus",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -44,7 +44,7 @@
 						"25",
 						"71"
 					],
-					"port": "30085",
+					"port": "30160",
 					"path": [
 						"fndc",
 						"api-financialDocument",
