@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "dccdf928-5763-4c31-b220-ca46fb6a26c5",
+		"name": "Request_SubjectGet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.25.71:30160/rprq/api-Request_Subject/Get",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6NywidXNlcl9pZCI6MTEyLCJ1c2VyX25hbWUiOiJGTkNfVVNFUiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6MTAwLCJhcHBsaWNhdGlvbl9zeXN0ZW1faWQiOjg2OCwiY3JlYXRpb25fZGF0ZSI6IjIwMjEtMTItMDVUMTA6MzE6NTQuNTgyIiwiZXhwIjoxNzAxNzU5NzE0LCJqdGkiOiI5OWUwMzhjMy1hMDczLTQ2YzctYTI1My1mYTBjYmRmYjQzNWMiLCJhdXRob3JpdGllcyI6WyIxMDQiLCIxMDUiLCIxMDEiLCIxMDYiLCIxMDAiLCIxMDMiLCIxMDIiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.TGI5xdY28qX07WMO2x3Vk09Yg0ZSHY60Sfmg1_JJYeZdJHsQxfri3c83sJy-ZF9RkTBgMcEKfYS2YklSzSoY06nG78WzJsFPd-90TI8sxXQjAn5ph_kNkjX9OMEAYjOF2o4lyWYsI_F22K6dgc56Gl_i-YIJno6lKN-wdEHcwhcSybMLrdgIlMEswYghS8MpJ3KembKZfA99xpZ6G1H0ZsHJr2rsdtI4wkd44BMo8VC4-O4HuLWIirL7jkXxBYpwFj1qDPi4vuVQoyN8jze3dZamQcI7DAQs1h1c-aZnDftcCeMZxG4QewwGXoJDml3cvVLxGVmk5zN7T1wHAa_xeQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6NywidXNlcl9pZCI6MTEyLCJ1c2VyX25hbWUiOiJGTkNfVVNFUiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6MTAwLCJhcHBsaWNhdGlvbl9zeXN0ZW1faWQiOjg2OCwiY3JlYXRpb25fZGF0ZSI6IjIwMjEtMTItMDVUMTA6MzE6NTQuNTgyIiwiZXhwIjoxNzAxNzU5NzE0LCJqdGkiOiI5OWUwMzhjMy1hMDczLTQ2YzctYTI1My1mYTBjYmRmYjQzNWMiLCJhdXRob3JpdGllcyI6WyIxMDQiLCIxMDUiLCIxMDEiLCIxMDYiLCIxMDAiLCIxMDMiLCIxMDIiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.TGI5xdY28qX07WMO2x3Vk09Yg0ZSHY60Sfmg1_JJYeZdJHsQxfri3c83sJy-ZF9RkTBgMcEKfYS2YklSzSoY06nG78WzJsFPd-90TI8sxXQjAn5ph_kNkjX9OMEAYjOF2o4lyWYsI_F22K6dgc56Gl_i-YIJno6lKN-wdEHcwhcSybMLrdgIlMEswYghS8MpJ3KembKZfA99xpZ6G1H0ZsHJr2rsdtI4wkd44BMo8VC4-O4HuLWIirL7jkXxBYpwFj1qDPi4vuVQoyN8jze3dZamQcI7DAQs1h1c-aZnDftcCeMZxG4QewwGXoJDml3cvVLxGVmk5zN7T1wHAa_xeQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"take\": 100,\r\n    \"skip\": 0,\r\n    \"sort\": [],\r\n    \"group\": [\r\n        {\r\n            \"fields\": [],\r\n            \"keys\": []\r\n        }\r\n    ],\r\n    \"filter\": {\r\n        \"logic\": \"and\",\r\n        \"filters\": [\r\n            {\r\n                \"field\": \"requestSubjectType.id\",\r\n                \"value\": 1,\r\n                \"operator\": \"eq\",\r\n                \"filters\": []\r\n            }\r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.25.71:30160/rprq/api-Request_Subject/Get",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"71"
+					],
+					"port": "30160",
+					"path": [
+						"rprq",
+						"api-Request_Subject",
+						"Get"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
