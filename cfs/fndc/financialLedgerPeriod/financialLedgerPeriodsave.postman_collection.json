@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "efd0ee48-787a-4104-bbbd-d7b1064f96f1",
-		"name": "financialLedgerPeriodSave",
+		"_postman_id": "90ee549f-59ce-42b9-8e5d-d87b8ded2661",
+		"name": "financialLedgerPeriodsave",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/api-financialLedgerPeriodController/save",
+			"name": "http://192.168.25.71:30160/api-financialLedgerPeriod/save",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -28,7 +28,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"financialPeriodId\":17272,\r\n\"financialLedgerTypeId\":1\r\n\r\n}",
+					"raw": "{\r\n\"financialPeriodId\":10172,\r\n\"financialLedgerTypeId\":1\r\n\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -36,7 +36,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/api-financialLedgerPeriodController/save",
+					"raw": "http://192.168.25.71:30160/api-financialLedgerPeriod/save",
 					"protocol": "http",
 					"host": [
 						"192",
@@ -46,7 +46,7 @@
 					],
 					"port": "30160",
 					"path": [
-						"api-financialLedgerPeriodController",
+						"api-financialLedgerPeriod",
 						"save"
 					]
 				}
