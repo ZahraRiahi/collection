@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://192.168.25.71:30160/api-financialLedgerPeriod/save",
+			"name": "http://192.168.25.71:30160/fndc/api-financialLedgerPeriod/save",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -36,7 +36,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.25.71:30160/api-financialLedgerPeriod/save",
+					"raw": "http://192.168.25.71:30160/fndc/api-financialLedgerPeriod/save",
 					"protocol": "http",
 					"host": [
 						"192",
