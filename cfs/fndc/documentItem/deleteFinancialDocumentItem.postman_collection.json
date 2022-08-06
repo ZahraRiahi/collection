@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "cd147492-61c9-4b5b-a469-8c5d3234c5a5",
+		"name": "deleteFinancialDocumentItem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.25.71:30160/fndc/api-financialDocumentItem/Delete/Delete",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MzcyMDQsInVzZXJfaWQiOjEsInVzZXJfbmFtZSI6ImRvY3RvciIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNS0wMlQxNjowMjo0Mi41NTMiLCJleHAiOjE2ODMwMjcxNjIsImp0aSI6IjJkMTNlYjVmLWNhNGMtNDgzYi1hYjY4LTRjZWUxYzVkZjU2NyIsImNsaWVudF9pZCI6ImNsaWVudEFwcElkIn0.rTXkxc56P3yEavXoU3qjsyDl2w3qhQ9Bv7VW24MH1VoQlKD7naiRkvkB34rgQfBixVPHu95BHVSZjCcIXL7eLPYPd-PKIXOCP6_Y-FraHURAv_0KeCfoHbUDqjObZblMfxIc5ihhMYyH-VVGs0dag_06pmxsJEAjy9E_wHgjkCV7qomaNNcC8GDOKxj9lVi2aTRDDT6xWyy-jw3NYZMsL-AHDHce0QiqmIvLANjAU4Ua0U7f8qf-mBZbTPwsxXMsYNgqqnuzNnXlUQTZ4_5PUa0hjt8gkZleqzSJ4qiUIypCe7KI5vEMwgg-E1Jieul59NUEEgQV4nvHKhiTSeMynA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6MzcyMDQsInVzZXJfaWQiOjEsInVzZXJfbmFtZSI6ImRvY3RvciIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJjcmVhdGlvbl9kYXRlIjoiMjAyMS0wNS0wMlQxNjowMjo0Mi41NTMiLCJleHAiOjE2ODMwMjcxNjIsImp0aSI6IjJkMTNlYjVmLWNhNGMtNDgzYi1hYjY4LTRjZWUxYzVkZjU2NyIsImNsaWVudF9pZCI6ImNsaWVudEFwcElkIn0.rTXkxc56P3yEavXoU3qjsyDl2w3qhQ9Bv7VW24MH1VoQlKD7naiRkvkB34rgQfBixVPHu95BHVSZjCcIXL7eLPYPd-PKIXOCP6_Y-FraHURAv_0KeCfoHbUDqjObZblMfxIc5ihhMYyH-VVGs0dag_06pmxsJEAjy9E_wHgjkCV7qomaNNcC8GDOKxj9lVi2aTRDDT6xWyy-jw3NYZMsL-AHDHce0QiqmIvLANjAU4Ua0U7f8qf-mBZbTPwsxXMsYNgqqnuzNnXlUQTZ4_5PUa0hjt8gkZleqzSJ4qiUIypCe7KI5vEMwgg-E1Jieul59NUEEgQV4nvHKhiTSeMynA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.25.71:30160/fndc/api-financialDocumentItem/Delete/22452",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"71"
+					],
+					"port": "30160",
+					"path": [
+						"fndc",
+						"api-financialDocumentItem",
+						"Delete",
+						"22452"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
