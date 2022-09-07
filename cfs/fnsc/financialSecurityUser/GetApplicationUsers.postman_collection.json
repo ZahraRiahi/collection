@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "3efd227e-9482-4609-9c99-b748acca413d",
+		"name": "GetApplicationUsers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.25.71:30160/fnsc/api-financialSecurityUser/GetApplicationUsers",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6NywidXNlcl9pZCI6MTEyLCJ1c2VyX25hbWUiOiJGTkNfVVNFUiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6MTAwLCJhcHBsaWNhdGlvbl9zeXN0ZW1faWQiOjg2OCwiY3JlYXRpb25fZGF0ZSI6IjIwMjEtMTItMDVUMTA6MzE6NTQuNTgyIiwiZXhwIjoxNzAxNzU5NzE0LCJqdGkiOiI5OWUwMzhjMy1hMDczLTQ2YzctYTI1My1mYTBjYmRmYjQzNWMiLCJhdXRob3JpdGllcyI6WyIxMDQiLCIxMDUiLCIxMDEiLCIxMDYiLCIxMDAiLCIxMDMiLCIxMDIiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.TGI5xdY28qX07WMO2x3Vk09Yg0ZSHY60Sfmg1_JJYeZdJHsQxfri3c83sJy-ZF9RkTBgMcEKfYS2YklSzSoY06nG78WzJsFPd-90TI8sxXQjAn5ph_kNkjX9OMEAYjOF2o4lyWYsI_F22K6dgc56Gl_i-YIJno6lKN-wdEHcwhcSybMLrdgIlMEswYghS8MpJ3KembKZfA99xpZ6G1H0ZsHJr2rsdtI4wkd44BMo8VC4-O4HuLWIirL7jkXxBYpwFj1qDPi4vuVQoyN8jze3dZamQcI7DAQs1h1c-aZnDftcCeMZxG4QewwGXoJDml3cvVLxGVmk5zN7T1wHAa_xeQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJhZGRpdGlvbmFsSW5mb3JtYXRpb24iOnsib3JnYW5pemF0aW9uX3BlcnNvbl9pZCI6NTIyOTk0MDQsInVzZXJfcGVyc29uX2lkIjoxMzI4OTgsIm9yZ2FuaXphdGlvbl91c2VyX2lkIjoxMDAsImFwcGxpY2F0aW9uX3N5c3RlbV9pZCI6ODY1fSwidXNlcl9pZCI6MTEyLCJ1c2VyX25hbWUiOiJGTkNfVVNFUiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJjcmVhdGlvbl9kYXRlIjoiMjAyMi0wOC0wMVQwOTo0NzowMC4yMDciLCJleHAiOjE2NTkzMzQ2MjAsImp0aSI6Ijk1YTNkOTRiLTY1N2EtNDM0YS05M2ZlLTI2ZWQzOTJlYmJmYSIsImF1dGhvcml0aWVzIjpbIkJLQUMiLCJCS0FDX0JBTksiLCJCS0FDX0JBTktfQUNDT1VOVE1BTkFHRU1FTlQiLCJCS0FDX0JBTktfTUFOQUdFTUVOVCIsIkNPTkZJR0ciLCJDVVJSX01PTkVZUkFURSIsIkNVUlJfTU9ORVlVU0VEIiwiRk5BQyIsIkZOQUNfQ0VOVFJJQ0FDQ09VTlRTIiwiRk5BQ19DT0RJTkciLCJGTkFDX0ZJTkFOQ0lBTEFDQ09VTlRTIiwiRk5DUiIsIkZOREMiLCJGTkRDX0RFU0NSSVBUSU9OUyIsIkZORENfRE9DVU1FTlRDSEFOR0VTVEFUVVMiLCJGTkRDX0RPQ1VNRU5USVNTVUFOQ0UiLCJGTkRDX0RPQ1VNRU5UU0VBUkNIIiwiRk5EQ19ET0NVTUVOVFRZUEUiLCJGTkRDX0xFREdFUkJPT0tTIiwiRk5EQ19MRURHRVJUUkFOU0ZFUiIsIkZORENfTlVNQkVSSU5HRk9STUFUUyIsIkZORENfUkVQIiwiRk5EQ19SRVBfQkFMQU5DRSIsIkZORENfUkVQX0NFTlRSSUNBQ0NPVU5UIiwiRk5EQ19SRVBfRklOQU5DSUFMQUNDT1VOVCIsIkZOUFIiLCJGTlNDIiwiRk5TQ19VU0VSQUNDRVNTIiwiRk5TQ19VU0VSTUFOQUdFTUVOVCJdLCJjbGllbnRfaWQiOiJjbGllbnRBcHBJZCJ9.M2vEhjUG-bhCecSnXe3OpUL3lhQr3ekf9nGkxoQQynwicDs54-BOZoBCvnPTQkEjeCPMEOGfQhwhCKOYhphzIqugmbXavRBCe2qgXHVCf7kQid7_gzkGQyMYu9wDK3Lz2vPRjyWU_oSA8592TT0JrXWmYVFJeYAwC3onY7779Ahx-t64N2zBwli9mWLmPArtzzzfUw6bjpDxu6I23x-7Ln443gorrTRq769kdM3oHTnnQtnHR8AILfN1UnhWamwjXgXA2dx8LAG4nQffIujXbbMRFOdbbLCc22-E1qr3eR1deFRBOgu7TrF_KGDDzKO9nPQ9MAi3dEiUEDR-Ik-ozQeyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6NywidXNlcl9pZCI6MTEyLCJ1c2VyX25hbWUiOiJGTkNfVVNFUiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6MTAwLCJhcHBsaWNhdGlvbl9zeXN0ZW1faWQiOjg2OCwiY3JlYXRpb25fZGF0ZSI6IjIwMjEtMTItMDVUMTA6MzE6NTQuNTgyIiwiZXhwIjoxNzAxNzU5NzE0LCJqdGkiOiI5OWUwMzhjMy1hMDczLTQ2YzctYTI1My1mYTBjYmRmYjQzNWMiLCJhdXRob3JpdGllcyI6WyIxMDQiLCIxMDUiLCIxMDEiLCIxMDYiLCIxMDAiLCIxMDMiLCIxMDIiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.TGI5xdY28qX07WMO2x3Vk09Yg0ZSHY60Sfmg1_JJYeZdJHsQxfri3c83sJy-ZF9RkTBgMcEKfYS2YklSzSoY06nG78WzJsFPd-90TI8sxXQjAn5ph_kNkjX9OMEAYjOF2o4lyWYsI_F22K6dgc56Gl_i-YIJno6lKN-wdEHcwhcSybMLrdgIlMEswYghS8MpJ3KembKZfA99xpZ6G1H0ZsHJr2rsdtI4wkd44BMo8VC4-O4HuLWIirL7jkXxBYpwFj1qDPi4vuVQoyN8jze3dZamQcI7DAQs1h1c-aZnDftcCeMZxG4QewwGXoJDml3cvVLxGVmk5zN7T1wHAa_xeQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"take\": 100,\r\n    \"skip\": 0,\r\n    \"sort\": [],\r\n    \"group\": [\r\n        {\r\n            \"fields\": [],\r\n            \"keys\": []\r\n        }\r\n    ],\r\n    \"filter\": {\r\n        \"logic\": \"and\",\r\n        \"filters\": [\r\n           \r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.25.71:30160/fnsc/api-financialSecurityUser/GetApplicationUsers",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"71"
+					],
+					"port": "30160",
+					"path": [
+						"fnsc",
+						"api-financialSecurityUser",
+						"GetApplicationUsers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
