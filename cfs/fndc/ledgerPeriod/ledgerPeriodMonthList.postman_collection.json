@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "bf9e5460-534d-459b-8c18-1b02b2c9a028",
+		"name": "ledgerPeriodMonthList",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.25.71:30160/fndc/api-ledgerPeriod/MonthList",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJhZGRpdGlvbmFsSW5mb3JtYXRpb24iOnsib3JnYW5pemF0aW9uX3BlcnNvbl9pZCI6OTk5OTk5OTEwMSwidXNlcl9wZXJzb25faWQiOjUzNzEwNjAyLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6OTk5OTk5OTEwMSwiYXBwbGljYXRpb25fc3lzdGVtX2lkIjo4NjV9LCJ1c2VyX2lkIjo2ODAxNCwidXNlcl9uYW1lIjoiay5raGFraSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJjcmVhdGlvbl9kYXRlIjoiMjAyMi0wOC0wOVQxNzoxMjoyOC4wODUiLCJleHAiOjE3MjMxMjA5NDgsImp0aSI6IjEyMTRjNmYyLTIxZmItNGRkNy04OWUyLWI3NzY4ZDQ0YmFkZSIsImF1dGhvcml0aWVzIjpbIkJLQUMiLCJCS0FDX0JBTksiLCJCS0FDX0JBTktfQUNDT1VOVE1BTkFHRU1FTlQiLCJCS0FDX0JBTktfTUFOQUdFTUVOVCIsIkNPTkZJRyIsIkNVUlJfTU9ORVlSQVRFIiwiQ1VSUl9NT05FWVVTRUQiLCJGTkFDIiwiRk5BQ19DRU5UUklDQUNDT1VOVFMiLCJGTkFDX0NPRElORyIsIkZOQUNfRklOQU5DSUFMQUNDT1VOVFMiLCJGTkNSIiwiRk5EQyIsIkZORENfREVTQ1JJUFRJT05TIiwiRk5EQ19ET0NVTUVOVENIQU5HRVNUQVRVUyIsIkZORENfRE9DVU1FTlRJU1NVQU5DRSIsIkZORENfRE9DVU1FTlRTRUFSQ0giLCJGTkRDX0RPQ1VNRU5UVFlQRSIsIkZORENfTEVER0VSQk9PS1MiLCJGTkRDX0xFREdFUlRSQU5TRkVSIiwiRk5EQ19OVU1CRVJJTkdGT1JNQVRTIiwiRk5EQ19SRVAiLCJGTkRDX1JFUF9CQUxBTkNFIiwiRk5EQ19SRVBfQ0VOVFJJQ0FDQ09VTlQiLCJGTkRDX1JFUF9GSU5BTkNJQUxBQ0NPVU5UIiwiRk5QUiIsIlNFQ1VSSVRZIiwiU0VDVVJJVFlfVVNFUkFDQ0VTUyIsIlNFQ1VSSVRZX1VTRVJNQU5BR0VNRU5UIl0sImNsaWVudF9pZCI6ImNsaWVudEFwcElkIn0.3OrmUzkRa8A7qnwI4AZwGg4OF48V1Zh_owT7D53VgGkEgQNB3Mag8yE-U4DF0doHr5Nti7oAjMyVxqXgjq8CNfp78dSK5HnvMn0YxYW9dgOoTQOAp2OB29R9tvZTuni6NV55D71_14IRBN4lj0Te09CwVuSSGLhwdubKnlTa7s4O3Oy8W0m3-unyuFpCng-plh9Sk6_VtHGQvvl5vel4XCXPyBYaeX7kA92mhzaqN9KUVfol1r7O5vb7TwC2IrLliiYscaEsOi5N1Tqdb6Sv01DfIMTgWuX1QrdXnkQaGpdCvvcPvwNfG1YW0ykVyxPfBXJsE0vEgdhPblJ9rkPYAQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJhZGRpdGlvbmFsSW5mb3JtYXRpb24iOnsib3JnYW5pemF0aW9uX3BlcnNvbl9pZCI6OTk5OTk5OTEwMSwidXNlcl9wZXJzb25faWQiOjUzNzEwNjAyLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6OTk5OTk5OTEwMSwiYXBwbGljYXRpb25fc3lzdGVtX2lkIjo4NjV9LCJ1c2VyX2lkIjo2ODAxNCwidXNlcl9uYW1lIjoiay5raGFraSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJjcmVhdGlvbl9kYXRlIjoiMjAyMi0wOC0wOVQxNzoxMjoyOC4wODUiLCJleHAiOjE3MjMxMjA5NDgsImp0aSI6IjEyMTRjNmYyLTIxZmItNGRkNy04OWUyLWI3NzY4ZDQ0YmFkZSIsImF1dGhvcml0aWVzIjpbIkJLQUMiLCJCS0FDX0JBTksiLCJCS0FDX0JBTktfQUNDT1VOVE1BTkFHRU1FTlQiLCJCS0FDX0JBTktfTUFOQUdFTUVOVCIsIkNPTkZJRyIsIkNVUlJfTU9ORVlSQVRFIiwiQ1VSUl9NT05FWVVTRUQiLCJGTkFDIiwiRk5BQ19DRU5UUklDQUNDT1VOVFMiLCJGTkFDX0NPRElORyIsIkZOQUNfRklOQU5DSUFMQUNDT1VOVFMiLCJGTkNSIiwiRk5EQyIsIkZORENfREVTQ1JJUFRJT05TIiwiRk5EQ19ET0NVTUVOVENIQU5HRVNUQVRVUyIsIkZORENfRE9DVU1FTlRJU1NVQU5DRSIsIkZORENfRE9DVU1FTlRTRUFSQ0giLCJGTkRDX0RPQ1VNRU5UVFlQRSIsIkZORENfTEVER0VSQk9PS1MiLCJGTkRDX0xFREdFUlRSQU5TRkVSIiwiRk5EQ19OVU1CRVJJTkdGT1JNQVRTIiwiRk5EQ19SRVAiLCJGTkRDX1JFUF9CQUxBTkNFIiwiRk5EQ19SRVBfQ0VOVFJJQ0FDQ09VTlQiLCJGTkRDX1JFUF9GSU5BTkNJQUxBQ0NPVU5UIiwiRk5QUiIsIlNFQ1VSSVRZIiwiU0VDVVJJVFlfVVNFUkFDQ0VTUyIsIlNFQ1VSSVRZX1VTRVJNQU5BR0VNRU5UIl0sImNsaWVudF9pZCI6ImNsaWVudEFwcElkIn0.3OrmUzkRa8A7qnwI4AZwGg4OF48V1Zh_owT7D53VgGkEgQNB3Mag8yE-U4DF0doHr5Nti7oAjMyVxqXgjq8CNfp78dSK5HnvMn0YxYW9dgOoTQOAp2OB29R9tvZTuni6NV55D71_14IRBN4lj0Te09CwVuSSGLhwdubKnlTa7s4O3Oy8W0m3-unyuFpCng-plh9Sk6_VtHGQvvl5vel4XCXPyBYaeX7kA92mhzaqN9KUVfol1r7O5vb7TwC2IrLliiYscaEsOi5N1Tqdb6Sv01DfIMTgWuX1QrdXnkQaGpdCvvcPvwNfG1YW0ykVyxPfBXJsE0vEgdhPblJ9rkPYAQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"take\": 100,\r\n    \"skip\": 0,\r\n    \"sort\": null,\r\n    \"group\": [\r\n        {\r\n            \"fields\": [],\r\n            \"keys\": []\r\n        }\r\n    ],\r\n    \"filter\": {\r\n        \"logic\": \"and\",\r\n        \"filters\": [\r\n            {\r\n                \"field\": \"financialPeriodId\",\r\n                \"value\": 105,\r\n                \"operator\": \"gte\",\r\n                \"filters\": []\r\n            },\r\n            {\r\n                \"field\": \"financialLedgerTypeId\",\r\n                \"value\": 1,\r\n                \"operator\": \"lte\",\r\n                \"filters\": []\r\n            }\r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.25.71:30160/fndc/api-ledgerPeriod/MonthList",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"71"
+					],
+					"port": "30160",
+					"path": [
+						"fndc",
+						"api-ledgerPeriod",
+						"MonthList"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
