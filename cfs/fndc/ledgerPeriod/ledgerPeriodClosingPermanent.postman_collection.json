@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "a03aef0a-e7c0-473d-9a8c-788470ba75a9",
+		"name": "ledgerPeriodClosingPermanent",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.25.71:30160/fndc/api-ledgerPeriod/DelClosingTemp",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6NywidXNlcl9pZCI6MTEyLCJ1c2VyX25hbWUiOiJGTkNfVVNFUiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6MTAwLCJhcHBsaWNhdGlvbl9zeXN0ZW1faWQiOjg2OCwiY3JlYXRpb25fZGF0ZSI6IjIwMjEtMTItMDVUMTA6MzE6NTQuNTgyIiwiZXhwIjoxNzAxNzU5NzE0LCJqdGkiOiI5OWUwMzhjMy1hMDczLTQ2YzctYTI1My1mYTBjYmRmYjQzNWMiLCJhdXRob3JpdGllcyI6WyIxMDQiLCIxMDUiLCIxMDEiLCIxMDYiLCIxMDAiLCIxMDMiLCIxMDIiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.TGI5xdY28qX07WMO2x3Vk09Yg0ZSHY60Sfmg1_JJYeZdJHsQxfri3c83sJy-ZF9RkTBgMcEKfYS2YklSzSoY06nG78WzJsFPd-90TI8sxXQjAn5ph_kNkjX9OMEAYjOF2o4lyWYsI_F22K6dgc56Gl_i-YIJno6lKN-wdEHcwhcSybMLrdgIlMEswYghS8MpJ3KembKZfA99xpZ6G1H0ZsHJr2rsdtI4wkd44BMo8VC4-O4HuLWIirL7jkXxBYpwFj1qDPi4vuVQoyN8jze3dZamQcI7DAQs1h1c-aZnDftcCeMZxG4QewwGXoJDml3cvVLxGVmk5zN7T1wHAa_xeQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFGRzc2NUJCRjBGMUIifQ.eyJ1c2VyX3BlcnNvbl9pZCI6NywidXNlcl9pZCI6MTEyLCJ1c2VyX25hbWUiOiJGTkNfVVNFUiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvcmdhbml6YXRpb25fdXNlcl9pZCI6MTAwLCJhcHBsaWNhdGlvbl9zeXN0ZW1faWQiOjg2OCwiY3JlYXRpb25fZGF0ZSI6IjIwMjEtMTItMDVUMTA6MzE6NTQuNTgyIiwiZXhwIjoxNzAxNzU5NzE0LCJqdGkiOiI5OWUwMzhjMy1hMDczLTQ2YzctYTI1My1mYTBjYmRmYjQzNWMiLCJhdXRob3JpdGllcyI6WyIxMDQiLCIxMDUiLCIxMDEiLCIxMDYiLCIxMDAiLCIxMDMiLCIxMDIiXSwiY2xpZW50X2lkIjoiY2xpZW50QXBwSWQifQ.TGI5xdY28qX07WMO2x3Vk09Yg0ZSHY60Sfmg1_JJYeZdJHsQxfri3c83sJy-ZF9RkTBgMcEKfYS2YklSzSoY06nG78WzJsFPd-90TI8sxXQjAn5ph_kNkjX9OMEAYjOF2o4lyWYsI_F22K6dgc56Gl_i-YIJno6lKN-wdEHcwhcSybMLrdgIlMEswYghS8MpJ3KembKZfA99xpZ6G1H0ZsHJr2rsdtI4wkd44BMo8VC4-O4HuLWIirL7jkXxBYpwFj1qDPi4vuVQoyN8jze3dZamQcI7DAQs1h1c-aZnDftcCeMZxG4QewwGXoJDml3cvVLxGVmk5zN7T1wHAa_xeQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"financialLedgerTypeId\":1,\r\n\"financialPeriodId\":1,\r\n\"financialLedgerPeriodId\":1,\r\n\"financialDepartmentId\":10,\r\n\"departmentId\":9999999101,\r\n\"financialPeriodDes\":\"test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.25.71:30160/fndc/api-ledgerPeriod/ClosingPermanent",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"71"
+					],
+					"port": "30160",
+					"path": [
+						"fndc",
+						"api-ledgerPeriod",
+						"ClosingPermanent"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
